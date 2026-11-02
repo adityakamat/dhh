@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { ChartRow } from "../components/ChartRow";
 import { ExportPanel } from "../components/ExportPanel";
+import { SUGGEST_URL } from "../data/artists";
 import { genreById } from "../data/genres";
 import { rankedTracks, useChart } from "../lib/chart";
 import type { GenreId } from "../lib/types";
@@ -26,7 +27,12 @@ export function GenrePage() {
           </ol>
         </>
       ) : (
-        <p className="hint">No tracks tagged {genre.name} yet. Add some to src/data/catalog.ts.</p>
+        <p className="hint">
+          No tracks tagged {genre.name} yet.{" "}
+          <a href={SUGGEST_URL} target="_blank" rel="noreferrer">
+            Suggest an artist
+          </a>
+        </p>
       )}
     </section>
   );

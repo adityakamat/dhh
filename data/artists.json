@@ -1,0 +1,33 @@
+{
+  "artists": [
+    { "id": "vichaar", "name": "Vichaar", "city": "Dehradun", "language": "Hindi", "genres": ["underground", "trap"], "underground": true, "youtubeChannelId": "UC95a470lU6YmG2HVQGVrwnw" },
+    { "id": "naam-sujal", "name": "Naam Sujal", "city": "Ahmedabad", "language": "Gujarati/Hindi", "genres": ["underground", "regional"], "underground": true, "youtubeChannelId": "UCOrGNgK1j-mZcgi5QlE1V8w" },
+    { "id": "dhanji", "name": "Dhanji", "city": "Ahmedabad", "language": "Gujarati/Hindi", "genres": ["underground", "regional"], "underground": true },
+    { "id": "siyaahi", "name": "Siyaahi", "city": "Ahmedabad", "language": "Gujarati/Hindi", "genres": ["underground", "regional"], "underground": true, "youtubeChannelId": "UC62CXZP7GIc5O7PA--t4iIQ" },
+    { "id": "seedhe-maut", "name": "Seedhe Maut", "city": "Delhi", "language": "Hindi", "genres": ["boom-bap", "underground"], "underground": true, "youtubeChannelId": "UCV9Mdim99sdyd56EqKJ52fg" },
+    { "id": "prabh-deep", "name": "Prabh Deep", "city": "Delhi", "language": "Punjabi/Hindi", "genres": ["boom-bap", "underground", "punjabi"], "underground": true, "youtubeChannelId": "UC2YyibL61HZl68aflFknUTA" },
+    { "id": "tienas", "name": "Tienas", "city": "Mumbai", "language": "English/Hindi", "genres": ["underground", "conscious"], "underground": true, "youtubeChannelId": "UC2LKSabqDpMnYzay9iSME2w" },
+    { "id": "mc-altaf", "name": "MC Altaf", "city": "Mumbai", "language": "Hindi", "genres": ["gully", "underground"], "underground": true, "youtubeChannelId": "UCOI6Qs7oQUOGnjXkua0huaw" },
+    { "id": "naezy", "name": "Naezy", "city": "Mumbai", "language": "Hindi", "genres": ["gully", "underground"], "underground": true, "youtubeChannelId": "UCN8j3VdR65unvffFPLx-iPQ" },
+    { "id": "kaam-bhaari", "name": "Kaam Bhaari", "city": "Mumbai", "language": "Hindi", "genres": ["gully", "underground"], "underground": true },
+    { "id": "spitfire", "name": "Spitfire", "city": "Mumbai", "language": "Hindi", "genres": ["gully", "underground"], "underground": true },
+    { "id": "yungsta", "name": "Yungsta", "city": "Delhi", "language": "Hindi/English", "genres": ["trap", "underground"], "underground": true },
+    { "id": "encore-abj", "name": "Encore ABJ", "city": "Delhi", "language": "Hindi", "genres": ["boom-bap", "underground"], "underground": true },
+    { "id": "vedan", "name": "Vedan", "city": "Thrissur", "language": "Malayalam", "genres": ["regional", "conscious", "underground"], "underground": true },
+    { "id": "dabzee", "name": "Dabzee", "city": "Malappuram", "language": "Malayalam", "genres": ["regional", "trap"], "underground": true },
+    { "id": "brodha-v", "name": "Brodha V", "city": "Bengaluru", "language": "Kannada/English", "genres": ["regional", "conscious"], "underground": false, "youtubeChannelId": "UCkRpflgoq9XYz7L7V5bozVA" },
+    { "id": "hanumankind", "name": "Hanumankind", "city": "Bengaluru", "language": "English", "genres": ["trap", "regional"], "underground": false, "youtubeChannelId": "UCochO54Q963bxDLazvTkwKA" },
+    { "id": "divine", "name": "DIVINE", "city": "Mumbai", "language": "Hindi", "genres": ["gully"], "underground": false, "youtubeChannelId": "UCFX8go5jeQ_9_Pk9WFl5tmA" },
+    { "id": "mc-stan", "name": "MC STAN", "aliases": ["MC STΔN"], "city": "Pune", "language": "Hindi", "genres": ["trap", "gully"], "underground": false, "youtubeChannelId": "UC_Q-YjEXDN0ufkU4AoWhU1g" },
+    { "id": "king", "name": "King", "city": "Delhi", "language": "Hindi", "genres": ["pop-rap"], "underground": false, "youtubeChannelId": "UCrtOnzd9dWH9lXTAB-64Hfg" },
+    { "id": "emiway-bantai", "name": "Emiway Bantai", "city": "Mumbai", "language": "Hindi", "genres": ["pop-rap", "trap"], "underground": false, "youtubeChannelId": "UCHmk8iNJHvf5mGN6_pkPc7g" },
+    { "id": "krsna", "name": "KR$NA", "aliases": ["KRSNA", "KR$NA"], "city": "Delhi", "language": "Hindi", "genres": ["conscious", "boom-bap"], "underground": false }
+  ],
+  "labels": [
+    { "id": "azadi-records", "name": "Azadi Records", "genres": ["underground"], "underground": true, "youtubeChannelId": "UCAFFNLEYK8YqOAhdLfTptyg" },
+    { "id": "gully-gang", "name": "Gully Gang", "genres": ["gully", "underground"], "underground": true, "youtubeChannelId": "UCqG7Pok01R5zHhPT-UFBY1g" },
+    { "id": "junta-party", "name": "Junta Party", "genres": ["underground", "regional"], "underground": true, "youtubeChannelId": "UC2RowolANMKZOY69x3ysfBA" },
+    { "id": "incink", "name": "IncInk", "genres": ["gully", "underground"], "underground": true, "youtubeChannelId": "UCfK6OShnaJhgN8XW6wKGGaw" },
+    { "id": "kalamkaar", "name": "Kalamkaar", "genres": ["conscious"], "underground": false, "youtubeChannelId": "UC99IVRmbb0vJZ1Vge2HtMHg" }
+  ]
+}

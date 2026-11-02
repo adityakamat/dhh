@@ -1,0 +1,65 @@
+name: Suggest an artist
+description: Get an artist or label tracked, so their new releases show up on the DHH chart.
+title: "Artist: "
+labels: ["artist-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Every week the chart builder checks the YouTube channel of each artist in `data/artists.json` and adds new songs to the chart.
+        Underground artists also compete in the **Underground 20**, which ranks by growth and engagement rather than raw views.
+  - type: input
+    id: name
+    attributes:
+      label: Artist or label name
+      placeholder: Vichaar
+    validations:
+      required: true
+  - type: input
+    id: channel
+    attributes:
+      label: Official YouTube channel
+      description: The artist's own channel (or the label channel they release on), not a fan re-upload.
+      placeholder: https://www.youtube.com/@vichaarmusic
+    validations:
+      required: true
+  - type: input
+    id: city
+    attributes:
+      label: City / scene
+      placeholder: Dehradun
+  - type: input
+    id: language
+    attributes:
+      label: Language(s)
+      placeholder: Hindi
+  - type: checkboxes
+    id: genres
+    attributes:
+      label: Genres
+      options:
+        - label: Gully Rap
+        - label: Boom Bap
+        - label: Trap
+        - label: Drill
+        - label: Conscious / Lyrical
+        - label: Punjabi Hip Hop
+        - label: Regional
+        - label: Lo-fi / Chill
+        - label: Battle / Diss
+        - label: Pop-rap / Commercial
+        - label: Underground / Indie
+  - type: dropdown
+    id: underground
+    attributes:
+      label: Independent / underground?
+      options:
+        - "Yes: independent or on an indie label"
+        - "No: major label or mainstream"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Tracks to start with
+      description: A few songs fans should hear first.

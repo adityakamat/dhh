@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
+import { findArtist } from "../data/artists";
 import { genreById } from "../data/genres";
 import type { RankedTrack } from "../lib/chart";
 import { movement } from "../lib/scoring";
@@ -23,8 +24,25 @@ export function ChartRow({ item, showStats = true }: { item: RankedTrack; showSt
         {mv?.kind === "same" && <span className="mv">=</span>}
       </div>
       <div className="row__main">
-        <div className="row__title">{track.title}</div>
-        <div className="row__artist">{track.artists.join(", ")}</div>
+        <div className="row__title">
+          {track.title}
+          {track.underground && (
+            <span className="badge" title="Underground: independent artist or label">
+              UG
+            </span>
+          )}
+        </div>
+        <div className="row__artist">
+          {track.artists.map((name, i) => {
+            const artist = findArtist(name);
+            return (
+              <Fragment key={name}>
+                {i > 0 && ", "}
+                {artist ? <Link to={`/artist/${artist.id}`}>{name}</Link> : name}
+              </Fragment>
+            );
+          })}
+        </div>
         <div className="row__tags">
           {track.genres.map((g) => (
             <Link key={g} to={`/genre/${g}`} className="tag" style={{ borderColor: genreById[g].color }}>
@@ -53,11 +71,31 @@ export function ChartRow({ item, showStats = true }: { item: RankedTrack; showSt
               <dd>{fmt.format(entry.stats.weeklyViews)}</dd>
             </div>
           )}
+          {entry.stats.growthPct != null && (
+            <div title="Views gained this week as a share of last week's total">
+              <dt>Growth</dt>
+              <dd>+{fmt.format(entry.stats.growthPct)}%</dd>
+            </div>
+          )}
           <div>
             <dt>Score</dt>
             <dd>{entry.score}</dd>
           </div>
         </dl>
+      )}
+      {item.ids.youtubeVideoId ? (
+        <a
+          className="play"
+          href={`https://www.youtube.com/watch?v=${item.ids.youtubeVideoId}`}
+          target="_blank"
+          rel="noreferrer"
+          title="Play on YouTube"
+          aria-label={`Play ${track.title} on YouTube`}
+        >
+          ▶
+        </a>
+      ) : (
+        <span />
       )}
       <button
         className={`vote ${voted ? "vote--on" : ""}`}

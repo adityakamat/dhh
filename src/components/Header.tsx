@@ -18,6 +18,7 @@ export function Header() {
       </NavLink>
       <nav>
         <NavLink to="/chart">Chart</NavLink>
+        <NavLink to="/artists">Artists</NavLink>
         <NavLink to="/build">Build playlist</NavLink>
       </nav>
       <div className="connect">

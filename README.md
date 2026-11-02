@@ -4,6 +4,8 @@ A hybrid app (web + iOS + Android via Capacitor) that:
 
 - builds **genre playlists** of Desi Hip Hop and saves them to **Spotify** or **YouTube Music**
 - publishes a weekly **DHH Chart**: a Billboard-style Top 40 with last week, peak and weeks on chart
+- runs an **Underground 20** for independent artists, plus **Bubbling Under** (41–60) and **Fresh Drops** (last 8 weeks)
+- finds new releases automatically from a registry of **artists and labels** (`data/artists.json`)
 - lets fans **vote** (🔥) on tracks
 
 Genres: Gully Rap · Boom Bap · Trap · Drill · Conscious/Lyrical · Punjabi · Regional · Lo-fi/Chill · Battle/Diss · Pop-rap/Commercial · Underground/Indie
@@ -19,19 +21,42 @@ npm test
 
 Without any keys the app still runs, using a **sample chart** (catalog order).
 
+## Where tracks come from
+
+1. **Curated seeds** in `src/data/catalog.ts`.
+2. **Discovered releases.** Every artist or label in `data/artists.json` that has a `youtubeChannelId` is scanned each week. The builder reads the channel's uploads from the last 365 days and skips teasers, shorts, behind-the-scenes clips, live sets and jukeboxes. It turns titles like `Vichaar x Karan Kanchan - UNDERDOG SHIT (Official Video) | Def Jam India` into a track and artist credits (`parseVideoTitle` in `src/lib/match.ts`). Results go to `data/discovered.json`, which the app merges into the catalog. This costs about 1–2 quota units per channel.
+
+A track is **underground** (UG badge, eligible for the Underground 20) if it's tagged `underground`, or if any credited artist or the releasing label is `"underground": true` in the registry.
+
+### Adding an artist
+Add an entry to `data/artists.json`. Use the channel ID (`UC…`), not the @handle, because handles are easy to mix up. To find it, open one of the artist's official videos and copy the channel ID from the channel link. Artists without their own channel (e.g. Dhanji, who releases through Junta Party) can still be listed: their features on other channels are credited to them, and they get an artist page. Fans can suggest artists through the **Suggest an artist** issue form.
+
+### Removing a bad discovery
+Add `{ "<track-id>": { "exclude": true } }` to `data/overrides.json`.
+
 ## How the chart is ranked
 
 Spotify removed `popularity` from its Web API in February 2026, so the score uses signals we can still measure (`src/lib/scoring.ts`):
 
-| Signal | Weight | Source |
-|---|---|---|
-| Velocity: views gained this week | 50% | YouTube, diffed against last week's snapshot |
-| Reach: lifetime views | 10% | YouTube |
-| Engagement: (likes + 2·comments) / views | 15% | YouTube |
-| Community votes this week | 25% | In-app 🔥 |
+| Signal | Top 40 | Underground 20 | Source |
+|---|---|---|---|
+| Velocity: views gained this week | 35% | 25% | YouTube, diffed against last week's snapshot |
+| Growth: this week's views ÷ last week's total | 15% | 35% | YouTube |
+| Engagement: (likes + 2·comments) / views | 20% | 20% | YouTube |
+| Reach: lifetime views | 5% | – | YouTube |
+| Community votes this week | 25% | 20% | In-app 🔥 |
 
-Each signal is log-scaled and normalised across the catalog. If no track has data for a signal, that signal's weight is shared among the others.
-`npm run charts` (also a GitHub Action every Monday 09:00 IST) writes `public/charts/latest.json` and `public/charts/history/<week>.json`.
+Counts (velocity, reach, votes) are log-scaled and min-max normalised. Growth and engagement are ratios with heavy outliers, so they're normalised by **percentile rank**: one +1000% debut can't flatten everyone else. Ratios are also ignored for videos under 1,000 views. If no track has data for a signal, that signal's weight is shared among the others.
+
+| List | Who's eligible | Ranked by |
+|---|---|---|
+| Top 40 | every track | Top 40 weights |
+| Bubbling Under | positions 41–60 of the same ranking | Top 40 weights |
+| Underground 20 | underground tracks, plus untagged tracks under 10M lifetime views that aren't credited only to mainstream artists | Underground weights |
+| Fresh Drops | published in the last 8 weeks | Top 40 weights |
+
+Each list keeps its own last-week / peak / weeks-on-chart history.
+`npm run charts` (also a GitHub Action every Monday 09:00 IST) discovers new releases, then writes `public/charts/latest.json` and `public/charts/history/<week>.json`. It prints the YouTube quota it used.
 
 ## Setup: API credentials
 
@@ -86,9 +111,13 @@ Spotify login works natively. **Google blocks OAuth in embedded webviews**, so o
 ## Project layout
 
 ```
-src/data/catalog.ts     curated tracks + genre tags (edit me)
+data/artists.json       artist & label registry: channels scanned for new releases (edit me)
+data/discovered.json    tracks found on those channels (written by the chart builder)
+data/overrides.json     pinned video IDs and exclusions
+src/data/catalog.ts     curated tracks + genre tags (edit me); merges in discovered tracks
 src/data/genres.ts      genre definitions
-src/lib/scoring.ts      chart score + Billboard movement (unit-tested)
+src/lib/scoring.ts      chart score, lists + Billboard movement (unit-tested)
+src/lib/match.ts        YouTube title matching, title parsing, non-song filter (unit-tested)
 src/lib/oauth.ts        Spotify PKCE / Google token flow, web + native redirects
 src/lib/spotify.ts      playlist export (Feb-2026 endpoints: /me/playlists, /playlists/{id}/items)
 src/lib/youtube.ts      YouTube Music export + no-login fallback
@@ -99,5 +128,5 @@ scripts/build-charts.ts weekly chart builder
 ## Roadmap
 - [ ] Shared votes backend (e.g. Supabase), exported weekly into `data/votes.json` so votes count on the chart
 - [ ] Native Google Sign-In for YouTube Music export on iOS/Android
-- [ ] Community track submissions + editorial review for the catalog
-- [ ] Artist pages and chart history graphs
+- [x] Artist pages (`/artist/:id`) and artist suggestions (GitHub issue form)
+- [ ] Chart history graphs

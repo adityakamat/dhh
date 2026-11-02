@@ -1,8 +1,11 @@
-import type { CatalogTrack, GenreId } from "../lib/types";
+import discovered from "../../data/discovered.json";
+import type { CatalogTrack, DiscoveredTrack, GenreId } from "../lib/types";
+import { findArtist } from "./artists";
 
 /**
  * Seed catalog. Genre tags are editorial — review and extend freely.
  * Platform IDs are resolved by `npm run charts` and cached in data/resolved.json.
+ * New releases from the channels in data/artists.json are added automatically via data/discovered.json.
  */
 type Seed = [title: string, artists: string[], genres: GenreId[], year?: number, language?: string];
 
@@ -48,6 +51,11 @@ const SEEDS: Seed[] = [
   ["Manavalan Thug", ["Dabzee"], ["regional", "trap"], undefined, "Malayalam"],
   ["Enjoy Enjaami", ["Dhee", "Arivu"], ["regional", "conscious"], 2021, "Tamil"],
   ["Aathma Rama", ["Brodha V"], ["regional", "conscious"], undefined, "Kannada/English"],
+  ["Kadipatti", ["Dhanji"], ["underground", "regional"], 2021, "Gujarati/Hindi"],
+  ["It's About Time", ["Naam Sujal", "Siyaahi", "Dhanji"], ["underground", "regional"], 2026, "Gujarati/Hindi"],
+  ["Murran", ["Vichaar"], ["underground", "conscious"], 2024, "Hindi"],
+  ["Underdog Shit", ["Vichaar", "Karan Kanchan"], ["underground", "trap"], 2026, "Hindi"],
+  ["Aabhaari Hoon", ["Vichaar"], ["underground"], 2026, "Hindi"],
 ];
 
 export function slugify(s: string): string {
@@ -59,13 +67,47 @@ export function slugify(s: string): string {
     .replace(/^-|-$/g, "");
 }
 
-export const CATALOG: CatalogTrack[] = SEEDS.map(([title, artists, genres, year, language]) => ({
-  id: slugify(`${artists[0]} ${title}`),
+export const trackSlug = (artists: string[], title: string) => slugify(`${artists[0]} ${title}`);
+
+export const isUndergroundCredit = (artists: string[], genres: GenreId[]) =>
+  genres.includes("underground") || artists.some((a) => findArtist(a)?.underground);
+
+/** Every credited artist in the registry is mainstream, and none of them is underground. */
+const isMainstreamCredit = (artists: string[]) => {
+  const known = artists.map(findArtist).filter((a) => a != null);
+  return known.length > 0 && known.every((a) => !a.underground);
+};
+
+const CURATED: CatalogTrack[] = SEEDS.map(([title, artists, genres, year, language]) => ({
+  id: trackSlug(artists, title),
   title,
   artists,
   genres,
   year,
   language,
+  underground: isUndergroundCredit(artists, genres),
+  mainstream: isMainstreamCredit(artists),
 }));
+
+/** Curated seeds plus discovered tracks. A curated seed wins over a discovery with the same slug. */
+export function buildCatalog(found: Record<string, DiscoveredTrack>): CatalogTrack[] {
+  const ids = new Set(CURATED.map((t) => t.id));
+  const extra = Object.entries(found)
+    .filter(([id]) => !ids.has(id))
+    .map(([id, d]): CatalogTrack => ({
+      id,
+      title: d.title,
+      artists: d.artists,
+      genres: d.genres,
+      year: d.year,
+      language: d.language,
+      underground: d.underground || isUndergroundCredit(d.artists, d.genres),
+      mainstream: isMainstreamCredit(d.artists),
+      discoveredAt: d.discoveredAt,
+    }));
+  return [...CURATED, ...extra];
+}
+
+export const CATALOG = buildCatalog(discovered as Record<string, DiscoveredTrack>);
 
 export const trackById = new Map(CATALOG.map((t) => [t.id, t]));

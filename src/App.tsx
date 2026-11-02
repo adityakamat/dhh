@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
-import { HashRouter, Route, Routes, useNavigate } from "react-router-dom";
+import { HashRouter, Link, Route, Routes, useNavigate } from "react-router-dom";
 import { Header } from "./components/Header";
+import { SUGGEST_URL } from "./data/artists";
 import { listenForNativeRedirects } from "./lib/oauth";
+import { ArtistPage, ArtistsPage } from "./pages/ArtistPage";
 import { BuildPage } from "./pages/BuildPage";
 import { ChartPage } from "./pages/ChartPage";
 import { GenrePage } from "./pages/GenrePage";
@@ -40,11 +42,17 @@ function Shell({ initialError }: { initialError: string | null }) {
           <Route path="/chart" element={<ChartPage />} />
           <Route path="/genre/:id" element={<GenrePage />} />
           <Route path="/build" element={<BuildPage />} />
+          <Route path="/artists" element={<ArtistsPage />} />
+          <Route path="/artist/:id" element={<ArtistPage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>
       </main>
       <footer className="footer">
-        DHH chart: YouTube view velocity, reach, engagement and community votes, recomputed every Monday.
+        DHH chart: YouTube view velocity, growth, reach, engagement and community votes, recomputed every Monday. New releases
+        are picked up from every <Link to="/artists">artist we track</Link>.{" "}
+        <a href={SUGGEST_URL} target="_blank" rel="noreferrer">
+          Suggest an artist
+        </a>
       </footer>
     </>
   );

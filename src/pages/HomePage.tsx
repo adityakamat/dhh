@@ -2,11 +2,13 @@ import { Link } from "react-router-dom";
 import { ChartRow } from "../components/ChartRow";
 import { SampleBanner } from "../components/SampleBanner";
 import { GENRES } from "../data/genres";
-import { rankedTracks, useChart } from "../lib/chart";
+import { listTracks, useChart } from "../lib/chart";
 
 export function HomePage() {
   const { chart, error } = useChart();
-  const top = rankedTracks(chart).filter((r) => r.entry).slice(0, 10);
+  const top = listTracks(chart, "top").slice(0, 10);
+  const underground = listTracks(chart, "underground").slice(0, 5);
+  const fresh = listTracks(chart, "fresh").slice(0, 5);
 
   return (
     <>
@@ -20,6 +22,21 @@ export function HomePage() {
           <Link to="/chart" className="btn btn--ghost">See the chart</Link>
         </div>
       </section>
+
+      {underground.length > 0 && (
+        <section className="spotlight">
+          <div className="section-head">
+            <h2>Underground Spotlight</h2>
+            <Link to="/chart?list=underground">Underground 20 →</Link>
+          </div>
+          <p className="hint">Independent artists ranked by momentum and fan engagement, not view counts.</p>
+          <ol className="rows">
+            {underground.map((r) => (
+              <ChartRow key={r.track.id} item={r} showStats={false} />
+            ))}
+          </ol>
+        </section>
+      )}
 
       <section>
         <h2>Genres</h2>
@@ -46,6 +63,20 @@ export function HomePage() {
           ))}
         </ol>
       </section>
+
+      {fresh.length > 0 && (
+        <section>
+          <div className="section-head">
+            <h2>Fresh Drops</h2>
+            <Link to="/chart?list=fresh">All fresh drops →</Link>
+          </div>
+          <ol className="rows">
+            {fresh.map((r) => (
+              <ChartRow key={r.track.id} item={r} showStats={false} />
+            ))}
+          </ol>
+        </section>
+      )}
     </>
   );
 }

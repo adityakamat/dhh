@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { CATALOG, trackById } from "../data/catalog";
-import type { CatalogTrack, Chart, ChartEntry, GenreId } from "./types";
+import type { CatalogTrack, Chart, ChartEntry, GenreId, ListKey } from "./types";
 
 let cache: Promise<Chart> | null = null;
 
@@ -27,16 +27,31 @@ export interface RankedTrack {
   ids: ChartEntry["ids"];
 }
 
-/** Every catalog track, in chart order (charted first, then the rest). */
+export type ChartList = "top" | ListKey;
+
+export function listEntries(chart: Chart | null, list: ChartList = "top"): ChartEntry[] {
+  return (list === "top" ? chart?.entries : chart?.lists?.[list]) ?? [];
+}
+
+/** Rows of one chart list (default: the Top 40). Only charted rows. */
+export function listTracks(chart: Chart | null, list: ChartList, genres?: GenreId[]): RankedTrack[] {
+  const rows = listEntries(chart, list).flatMap((entry) => {
+    const track = trackById.get(entry.trackId);
+    return track ? [{ track, entry, ids: entry.ids }] : [];
+  });
+  return genres?.length ? rows.filter((r) => r.track.genres.some((g) => genres.includes(g))) : rows;
+}
+
+/** Every catalog track, in chart order (Top 40, then Bubbling Under, then the rest). */
 export function rankedTracks(chart: Chart | null, genres?: GenreId[]): RankedTrack[] {
   const seen = new Set<string>();
   const out: RankedTrack[] = [];
-  for (const entry of chart?.entries ?? []) {
+  for (const entry of [...listEntries(chart, "top"), ...listEntries(chart, "bubbling")]) {
     const track = trackById.get(entry.trackId);
     if (!track) continue;
     seen.add(track.id);
     out.push({ track, entry, ids: entry.ids });
   }
-  for (const track of CATALOG) if (!seen.has(track.id)) out.push({ track, ids: {} });
+  for (const track of CATALOG) if (!seen.has(track.id)) out.push({ track, ids: chart?.ids?.[track.id] ?? {} });
   return genres?.length ? out.filter((r) => r.track.genres.some((g) => genres.includes(g))) : out;
 }
