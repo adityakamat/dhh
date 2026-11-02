@@ -1,0 +1,50 @@
+{
+  "name": "dhh",
+  "version": "1.0.0",
+  "description": "DHH: Desi Hip Hop playlists for Spotify & YouTube Music, plus a weekly DHH chart",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "charts": "tsx scripts/build-charts.ts",
+    "cap:sync": "npm run build && cap sync",
+    "cap:ios": "cap open ios",
+    "cap:android": "cap open android"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityakamat/dhh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/adityakamat/dhh/issues"
+  },
+  "homepage": "https://github.com/adityakamat/dhh#readme",
+  "dependencies": {
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/browser": "^8.0.5",
+    "@capacitor/core": "^8.6.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/cli": "^8.6.0",
+    "@capacitor/ios": "^8.6.0",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.1.0"
+  },
+  "private": true
+}
