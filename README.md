@@ -51,6 +51,17 @@ Each signal is log-scaled and normalised across the catalog. If no track has dat
 ### 3. GitHub Action
 Add `YOUTUBE_API_KEY` (and optionally the Spotify pair) under *Settings → Secrets → Actions*, then run **Weekly DHH chart** manually once. The first run uses YouTube search to match a video for each track (100 units each). The results are cached in `data/resolved.json`, so later runs cost about 1 unit.
 
+### Fixing a wrong YouTube match
+The chart builder only accepts a search result whose title names the track, and it prefers the most-viewed one. Every run re-checks cached matches, which is cheap. If a track still maps to the wrong video, or to none, pin the right one in `data/overrides.json`:
+
+```json
+{ "bohemia-kali-denali": { "youtubeVideoId": "VIDEO_ID_HERE" } }
+```
+
+To redo every match, run the workflow with **reresolve** ticked. That costs about 100 units per track.
+
+Note that the first chart has no previous week to compare against, so "velocity" is estimated from lifetime views per week, which favours recent uploads. Real week-over-week velocity starts with the second weekly run.
+
 ## Native apps (Capacitor)
 
 ```bash
