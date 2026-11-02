@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T17:11:23.807Z",
+  "generatedAt": "2026-11-02T17:16:34.959Z",
   "week": "2026-W45",
   "sample": false,
   "entries": [
@@ -11,11 +11,11 @@
       "peak": 1,
       "weeksOnChart": 1,
       "stats": {
-        "views": 22070218,
-        "likes": 862398,
+        "views": 22071429,
+        "likes": 862407,
         "comments": 106830,
         "publishedAt": "2026-10-10T03:47:32Z",
-        "weeklyViews": 6557856
+        "weeklyViews": 6557213
       },
       "ids": {
         "youtubeVideoId": "C9OmyNRyz4E"
@@ -29,11 +29,11 @@
       "peak": 2,
       "weeksOnChart": 1,
       "stats": {
-        "views": 325796275,
-        "likes": 6859409,
+        "views": 325797171,
+        "likes": 6859418,
         "comments": 245545,
         "publishedAt": "2024-07-10T05:41:01Z",
-        "weeklyViews": 2697374
+        "weeklyViews": 2697370
       },
       "ids": {
         "youtubeVideoId": "hOHKltAiKXQ"
@@ -47,11 +47,11 @@
       "peak": 3,
       "weeksOnChart": 1,
       "stats": {
-        "views": 665466510,
-        "likes": 7544402,
+        "views": 665467157,
+        "likes": 7544406,
         "comments": 148674,
         "publishedAt": "2020-09-01T17:30:11Z",
-        "weeklyViews": 2067595
+        "weeklyViews": 2067594
       },
       "ids": {
         "youtubeVideoId": "A66TYFdz8YA"
@@ -65,11 +65,11 @@
       "peak": 4,
       "weeksOnChart": 1,
       "stats": {
-        "views": 986198253,
-        "likes": 8933141,
-        "comments": 296467,
+        "views": 986200387,
+        "likes": 8933152,
+        "comments": 296468,
         "publishedAt": "2017-08-10T04:30:30Z",
-        "weeklyViews": 2047554
+        "weeklyViews": 2047557
       },
       "ids": {
         "youtubeVideoId": "GgmFC8y8q3k"
@@ -83,11 +83,11 @@
       "peak": 5,
       "weeksOnChart": 1,
       "stats": {
-        "views": 649587710,
-        "likes": 8346641,
+        "views": 649588070,
+        "likes": 8346642,
         "comments": 194432,
         "publishedAt": "2020-02-14T09:42:42Z",
-        "weeklyViews": 1853460
+        "weeklyViews": 1853458
       },
       "ids": {
         "youtubeVideoId": "zaCbuB3w0kg"
@@ -101,9 +101,9 @@
       "peak": 6,
       "weeksOnChart": 1,
       "stats": {
-        "views": 418913511,
-        "likes": 6053309,
-        "comments": 312072,
+        "views": 418914403,
+        "likes": 6053313,
+        "comments": 312073,
         "publishedAt": "2022-05-15T12:30:13Z",
         "weeklyViews": 1796595
       },
@@ -119,11 +119,11 @@
       "peak": 7,
       "weeksOnChart": 1,
       "stats": {
-        "views": 530762522,
+        "views": 530762740,
         "likes": 5130206,
         "comments": 204639,
         "publishedAt": "2021-03-07T04:30:15Z",
-        "weeklyViews": 1797864
+        "weeklyViews": 1797862
       },
       "ids": {
         "youtubeVideoId": "eYq7WapuDLU"
@@ -137,11 +137,11 @@
       "peak": 8,
       "weeksOnChart": 1,
       "stats": {
-        "views": 352631857,
-        "likes": 4731307,
+        "views": 352632081,
+        "likes": 4731311,
         "comments": 73384,
         "publishedAt": "2020-10-16T05:29:56Z",
-        "weeklyViews": 1117699
+        "weeklyViews": 1117698
       },
       "ids": {
         "youtubeVideoId": "w5Aioq5VYF0"
@@ -155,11 +155,11 @@
       "peak": 9,
       "weeksOnChart": 1,
       "stats": {
-        "views": 344964326,
-        "likes": 4139477,
+        "views": 344964690,
+        "likes": 4139479,
         "comments": 258342,
         "publishedAt": "2020-06-12T04:42:17Z",
-        "weeklyViews": 1034367
+        "weeklyViews": 1034366
       },
       "ids": {
         "youtubeVideoId": "hpVNMjpjiJc"
@@ -173,11 +173,11 @@
       "peak": 10,
       "weeksOnChart": 1,
       "stats": {
-        "views": 624735363,
-        "likes": 2949423,
+        "views": 624736745,
+        "likes": 2949424,
         "comments": 47652,
         "publishedAt": "2015-07-17T04:59:44Z",
-        "weeklyViews": 1059770
+        "weeklyViews": 1059771
       },
       "ids": {
         "youtubeVideoId": "OulN7vTDq1I"
@@ -191,11 +191,11 @@
       "peak": 11,
       "weeksOnChart": 1,
       "stats": {
-        "views": 217306190,
-        "likes": 4254045,
+        "views": 217307483,
+        "likes": 4254051,
         "comments": 75274,
         "publishedAt": "2020-10-14T03:30:11Z",
-        "weeklyViews": 688123
+        "weeklyViews": 688126
       },
       "ids": {
         "youtubeVideoId": "gU74mNz64VU"
@@ -209,11 +209,11 @@
       "peak": 12,
       "weeksOnChart": 1,
       "stats": {
-        "views": 212707168,
-        "likes": 1645051,
+        "views": 212707626,
+        "likes": 1645052,
         "comments": 43952,
         "publishedAt": "2022-12-21T05:30:04Z",
-        "weeklyViews": 1054134
+        "weeklyViews": 1054133
       },
       "ids": {
         "youtubeVideoId": "CeFQO9MQNqs"
@@ -227,11 +227,11 @@
       "peak": 13,
       "weeksOnChart": 1,
       "stats": {
-        "views": 230772999,
+        "views": 230773011,
         "likes": 3962369,
         "comments": 135188,
         "publishedAt": "2019-01-25T05:28:41Z",
-        "weeklyViews": 569110
+        "weeklyViews": 569109
       },
       "ids": {
         "youtubeVideoId": "7tNPxY_ntEA"
@@ -245,11 +245,11 @@
       "peak": 14,
       "weeksOnChart": 1,
       "stats": {
-        "views": 296564651,
+        "views": 296564718,
         "likes": 2856457,
         "comments": 63916,
         "publishedAt": "2019-01-14T06:30:04Z",
-        "weeklyViews": 728546
+        "weeklyViews": 728545
       },
       "ids": {
         "youtubeVideoId": "jFGKJBPFdUA"
@@ -263,8 +263,8 @@
       "peak": 15,
       "weeksOnChart": 1,
       "stats": {
-        "views": 134343059,
-        "likes": 1218232,
+        "views": 134343362,
+        "likes": 1218233,
         "comments": 19146,
         "publishedAt": "2022-08-10T12:30:14Z",
         "weeklyViews": 608597
@@ -281,11 +281,11 @@
       "peak": 16,
       "weeksOnChart": 1,
       "stats": {
-        "views": 255686322,
+        "views": 255686376,
         "likes": 1999396,
         "comments": 34679,
         "publishedAt": "2017-05-09T06:29:56Z",
-        "weeklyViews": 516621
+        "weeklyViews": 516620
       },
       "ids": {
         "youtubeVideoId": "AtUh3lJeac8"
@@ -299,11 +299,11 @@
       "peak": 17,
       "weeksOnChart": 1,
       "stats": {
-        "views": 134192758,
+        "views": 134192778,
         "likes": 2790674,
         "comments": 138601,
         "publishedAt": "2018-10-31T17:59:02Z",
-        "weeklyViews": 321259
+        "weeklyViews": 321258
       },
       "ids": {
         "youtubeVideoId": "aBvj7W9SX4M"
@@ -317,8 +317,8 @@
       "peak": 18,
       "weeksOnChart": 1,
       "stats": {
-        "views": 168628707,
-        "likes": 1519177,
+        "views": 168628820,
+        "likes": 1519176,
         "comments": 25685,
         "publishedAt": "2019-03-04T10:31:40Z",
         "weeklyViews": 421530
@@ -335,7 +335,7 @@
       "peak": 19,
       "weeksOnChart": 1,
       "stats": {
-        "views": 102196979,
+        "views": 102197023,
         "likes": 2571419,
         "comments": 63127,
         "publishedAt": "2016-10-17T11:12:42Z",
@@ -353,7 +353,7 @@
       "peak": 20,
       "weeksOnChart": 1,
       "stats": {
-        "views": 210646618,
+        "views": 210646748,
         "likes": 878643,
         "comments": 13662,
         "publishedAt": "2016-11-23T04:31:08Z",
@@ -371,11 +371,11 @@
       "peak": 21,
       "weeksOnChart": 1,
       "stats": {
-        "views": 15693501,
-        "likes": 639321,
+        "views": 15693632,
+        "likes": 639323,
         "comments": 30502,
         "publishedAt": "2023-10-22T06:30:12Z",
-        "weeklyViews": 99196
+        "weeklyViews": 99197
       },
       "ids": {
         "youtubeVideoId": "GbXtCRCT0Ig"
@@ -389,9 +389,9 @@
       "peak": 22,
       "weeksOnChart": 1,
       "stats": {
-        "views": 98853961,
-        "likes": 2449471,
-        "comments": 83979,
+        "views": 98854091,
+        "likes": 2449470,
+        "comments": 83981,
         "publishedAt": "2012-11-16T10:30:09Z",
         "weeklyViews": 135701
       },
@@ -407,11 +407,11 @@
       "peak": 23,
       "weeksOnChart": 1,
       "stats": {
-        "views": 105317823,
+        "views": 105318013,
         "likes": 1239144,
         "comments": 17057,
         "publishedAt": "2018-06-15T05:30:02Z",
-        "weeklyViews": 240727
+        "weeklyViews": 240728
       },
       "ids": {
         "youtubeVideoId": "NU3xm6N7tzw"
@@ -425,7 +425,7 @@
       "peak": 24,
       "weeksOnChart": 1,
       "stats": {
-        "views": 91908927,
+        "views": 91909022,
         "likes": 870997,
         "comments": 26552,
         "publishedAt": "2019-02-11T11:15:58Z",
@@ -443,8 +443,8 @@
       "peak": 25,
       "weeksOnChart": 1,
       "stats": {
-        "views": 33694334,
-        "likes": 485269,
+        "views": 33694461,
+        "likes": 485268,
         "comments": 12234,
         "publishedAt": "2023-08-26T14:00:08Z",
         "weeklyViews": 202606
@@ -461,8 +461,8 @@
       "peak": 26,
       "weeksOnChart": 1,
       "stats": {
-        "views": 42298275,
-        "likes": 769132,
+        "views": 42298399,
+        "likes": 769135,
         "comments": 30692,
         "publishedAt": "2021-07-22T18:30:12Z",
         "weeklyViews": 153497
@@ -483,7 +483,7 @@
         "likes": 257970,
         "comments": 5150,
         "publishedAt": "2024-07-05T12:30:08Z",
-        "weeklyViews": 161147
+        "weeklyViews": 161146
       },
       "ids": {
         "youtubeVideoId": "Ecs-foVS74Q"
@@ -497,7 +497,7 @@
       "peak": 28,
       "weeksOnChart": 1,
       "stats": {
-        "views": 3537157,
+        "views": 3537159,
         "likes": 270994,
         "comments": 17694,
         "publishedAt": "2020-07-03T07:28:26Z",
@@ -515,7 +515,7 @@
       "peak": 29,
       "weeksOnChart": 1,
       "stats": {
-        "views": 22728779,
+        "views": 22728786,
         "likes": 497729,
         "comments": 47752,
         "publishedAt": "2021-03-19T05:31:30Z",
@@ -533,7 +533,7 @@
       "peak": 30,
       "weeksOnChart": 1,
       "stats": {
-        "views": 42774006,
+        "views": 42774028,
         "likes": 889149,
         "comments": 13108,
         "publishedAt": "2015-04-16T08:03:52Z",
@@ -569,8 +569,8 @@
       "peak": 32,
       "weeksOnChart": 1,
       "stats": {
-        "views": 49869057,
-        "likes": 271315,
+        "views": 49869168,
+        "likes": 271316,
         "publishedAt": "2012-02-27T18:17:36Z",
         "weeklyViews": 65104
       },
@@ -586,7 +586,7 @@
       "peak": 33,
       "weeksOnChart": 1,
       "stats": {
-        "views": 26194001,
+        "views": 26194004,
         "likes": 416466,
         "comments": 7738,
         "publishedAt": "2016-03-25T04:00:13Z",
@@ -599,19 +599,19 @@
     {
       "rank": 34,
       "trackId": "bohemia-kali-denali",
-      "score": 48.6,
+      "score": 46.8,
       "lastWeek": null,
       "peak": 34,
       "weeksOnChart": 1,
       "stats": {
-        "views": 7457076,
-        "likes": 121702,
-        "comments": 5239,
-        "publishedAt": "2024-04-26T04:30:08Z",
-        "weeklyViews": 56706
+        "views": 31981407,
+        "likes": 353496,
+        "comments": 16430,
+        "publishedAt": "2011-01-04T23:18:33Z",
+        "weeklyViews": 38727
       },
       "ids": {
-        "youtubeVideoId": "8H4Q_jLxjTk"
+        "youtubeVideoId": "3F2mwVDkWkk"
       }
     },
     {
@@ -626,7 +626,7 @@
         "likes": 69299,
         "comments": 1632,
         "publishedAt": "2018-04-27T00:09:02Z",
-        "weeklyViews": 6231
+        "weeklyViews": 6230
       },
       "ids": {
         "youtubeVideoId": "zN38VR5Fr8I"
