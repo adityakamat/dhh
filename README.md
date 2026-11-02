@@ -62,6 +62,13 @@ To redo every match, run the workflow with **reresolve** ticked. That costs abou
 
 Note that the first chart has no previous week to compare against, so "velocity" is estimated from lifetime views per week, which favours recent uploads. Real week-over-week velocity starts with the second weekly run.
 
+## Web deploy (GitHub Pages)
+
+The site is live at https://adityakamat.github.io/dhh/. It's deployed by `.github/workflows/deploy.yml` on every push to `main` and after every chart run.
+
+- Add the repository **variables** (not secrets; these are public IDs) `VITE_SPOTIFY_CLIENT_ID` and `VITE_GOOGLE_CLIENT_ID`.
+- Add the redirect URI `https://adityakamat.github.io/dhh/` in the Spotify dashboard and in the Google OAuth client. Also add `https://adityakamat.github.io` as an authorised JavaScript origin in Google.
+
 ## Native apps (Capacitor)
 
 ```bash

@@ -7,5 +7,5 @@ export const env = {
   googleClientId: import.meta.env.VITE_GOOGLE_CLIENT_ID as string | undefined,
   redirectUri: isNative
     ? ((import.meta.env.VITE_NATIVE_REDIRECT_URI as string | undefined) ?? "com.adityakamat.dhh://callback")
-    : ((import.meta.env.VITE_REDIRECT_URI as string | undefined) ?? `${location.origin}/`),
+    : ((import.meta.env.VITE_REDIRECT_URI as string | undefined) ?? `${location.origin}${location.pathname}`),
 };
