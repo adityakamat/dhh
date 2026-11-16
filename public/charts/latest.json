@@ -1,97 +1,173 @@
 {
-  "generatedAt": "2026-11-09T11:54:58.908Z",
-  "week": "2026-W46",
+  "generatedAt": "2026-11-16T11:50:59.724Z",
+  "week": "2026-W47",
   "sample": false,
   "entries": [
     {
       "rank": 1,
+      "trackId": "emiway-bantai-sumwali-daav",
+      "score": 89.9,
+      "lastWeek": null,
+      "peak": 1,
+      "weeksOnChart": 1,
+      "stats": {
+        "views": 1352247,
+        "likes": 81211,
+        "comments": 7515,
+        "publishedAt": "2026-11-12T18:30:10Z",
+        "weeklyViews": 1352247,
+        "growthPct": 1000
+      },
+      "ids": {
+        "youtubeVideoId": "CiItymK4F_M"
+      }
+    },
+    {
+      "rank": 2,
+      "trackId": "emiway-bantai-mr-international",
+      "score": 87.7,
+      "lastWeek": null,
+      "peak": 2,
+      "weeksOnChart": 1,
+      "stats": {
+        "views": 441490,
+        "likes": 38067,
+        "comments": 2370,
+        "publishedAt": "2026-11-11T18:39:00Z",
+        "weeklyViews": 441490,
+        "growthPct": 1000
+      },
+      "ids": {
+        "youtubeVideoId": "5S8_2eLWChI"
+      }
+    },
+    {
+      "rank": 3,
       "trackId": "sidhu-moose-wala-295",
-      "score": 84,
+      "score": 81.5,
       "lastWeek": 1,
       "peak": 1,
-      "weeksOnChart": 2,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 23406593,
-        "likes": 875686,
-        "comments": 107272,
+        "views": 24338990,
+        "likes": 883896,
+        "comments": 107578,
         "publishedAt": "2026-10-10T03:47:32Z",
-        "weeklyViews": 1322287,
-        "growthPct": 6
+        "weeklyViews": 932397,
+        "growthPct": 4
       },
       "ids": {
         "youtubeVideoId": "C9OmyNRyz4E"
       }
     },
     {
-      "rank": 2,
-      "trackId": "seedhe-maut-buzz",
-      "score": 77.9,
-      "lastWeek": 2,
-      "peak": 2,
-      "weeksOnChart": 2,
+      "rank": 4,
+      "trackId": "king-tujhe-haaye-lage",
+      "score": 77.4,
+      "lastWeek": null,
+      "peak": 4,
+      "weeksOnChart": 1,
       "stats": {
-        "views": 2871151,
-        "likes": 114549,
-        "comments": 6827,
-        "publishedAt": "2026-10-23T05:30:29Z",
-        "weeklyViews": 371991,
-        "growthPct": 15
+        "views": 136643,
+        "likes": 7345,
+        "comments": 495,
+        "publishedAt": "2026-11-13T12:30:36Z",
+        "weeklyViews": 136643,
+        "growthPct": 1000
       },
       "ids": {
-        "youtubeVideoId": "EtRDi6HhCfg"
+        "youtubeVideoId": "yCJRsL6QOxk"
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
       "trackId": "emiway-bantai-trap-aiba",
-      "score": 77.1,
+      "score": 75.8,
       "lastWeek": 3,
       "peak": 3,
-      "weeksOnChart": 2,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 1831055,
-        "likes": 82895,
-        "comments": 7041,
+        "views": 1990746,
+        "likes": 85553,
+        "comments": 7154,
         "publishedAt": "2026-10-17T18:30:17Z",
-        "weeklyViews": 173556,
-        "growthPct": 10
+        "weeklyViews": 159691,
+        "growthPct": 9
       },
       "ids": {
         "youtubeVideoId": "SZv3qXn4oUE"
       }
     },
     {
-      "rank": 4,
-      "trackId": "king-enamorado",
-      "score": 73.8,
-      "lastWeek": 6,
-      "peak": 4,
-      "weeksOnChart": 2,
+      "rank": 6,
+      "trackId": "naam-sujal-jhalak",
+      "score": 75.7,
+      "lastWeek": null,
+      "peak": 6,
+      "weeksOnChart": 1,
       "stats": {
-        "views": 3651551,
-        "likes": 104797,
-        "comments": 4343,
+        "views": 999739,
+        "likes": 29416,
+        "comments": 1477,
+        "publishedAt": "2026-11-12T05:30:23Z",
+        "weeklyViews": 999739,
+        "growthPct": 1000
+      },
+      "ids": {
+        "youtubeVideoId": "1kq5o4ET2p0"
+      }
+    },
+    {
+      "rank": 7,
+      "trackId": "seedhe-maut-buzz",
+      "score": 74.6,
+      "lastWeek": 2,
+      "peak": 2,
+      "weeksOnChart": 3,
+      "stats": {
+        "views": 3163975,
+        "likes": 117360,
+        "comments": 6940,
+        "publishedAt": "2026-10-23T05:30:29Z",
+        "weeklyViews": 292824,
+        "growthPct": 10
+      },
+      "ids": {
+        "youtubeVideoId": "EtRDi6HhCfg"
+      }
+    },
+    {
+      "rank": 8,
+      "trackId": "king-enamorado",
+      "score": 72,
+      "lastWeek": 4,
+      "peak": 4,
+      "weeksOnChart": 3,
+      "stats": {
+        "views": 4110464,
+        "likes": 110375,
+        "comments": 4442,
         "publishedAt": "2026-10-19T06:30:10Z",
-        "weeklyViews": 604581,
-        "growthPct": 20
+        "weeklyViews": 458913,
+        "growthPct": 13
       },
       "ids": {
         "youtubeVideoId": "nnrS_dFjeZc"
       }
     },
     {
-      "rank": 5,
+      "rank": 9,
       "trackId": "emiway-bantai-safal",
       "score": 71.8,
       "lastWeek": 5,
       "peak": 5,
-      "weeksOnChart": 2,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 2476542,
-        "likes": 123424,
-        "comments": 8411,
+        "views": 2528865,
+        "likes": 124017,
+        "comments": 8373,
         "publishedAt": "2026-08-19T18:30:06Z",
-        "weeklyViews": 44675,
+        "weeklyViews": 52323,
         "growthPct": 2
       },
       "ids": {
@@ -99,56 +175,18 @@
       }
     },
     {
-      "rank": 6,
-      "trackId": "mc-stan-basti-ka-hasti",
-      "score": 69.2,
-      "lastWeek": 46,
-      "peak": 6,
-      "weeksOnChart": 2,
-      "stats": {
-        "views": 15851388,
-        "likes": 641048,
-        "comments": 30523,
-        "publishedAt": "2023-10-22T06:30:12Z",
-        "weeklyViews": 155471,
-        "growthPct": 1
-      },
-      "ids": {
-        "youtubeVideoId": "GbXtCRCT0Ig"
-      }
-    },
-    {
-      "rank": 7,
-      "trackId": "seedhe-maut-dilli-jale-roz",
-      "score": 67.4,
-      "lastWeek": 7,
-      "peak": 7,
-      "weeksOnChart": 2,
-      "stats": {
-        "views": 457851,
-        "likes": 54500,
-        "comments": 2430,
-        "publishedAt": "2026-07-25T14:28:56Z",
-        "weeklyViews": 5021,
-        "growthPct": 1
-      },
-      "ids": {
-        "youtubeVideoId": "iX3-YZb1-S0"
-      }
-    },
-    {
-      "rank": 8,
+      "rank": 10,
       "trackId": "emiway-bantai-chhabi-kar",
-      "score": 66.4,
-      "lastWeek": 10,
+      "score": 66.2,
+      "lastWeek": 8,
       "peak": 8,
-      "weeksOnChart": 2,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 2330484,
-        "likes": 103282,
+        "views": 2362287,
+        "likes": 103548,
         "comments": 6071,
         "publishedAt": "2026-06-06T18:31:31Z",
-        "weeklyViews": 28443,
+        "weeklyViews": 31803,
         "growthPct": 1
       },
       "ids": {
@@ -156,113 +194,56 @@
       }
     },
     {
-      "rank": 9,
-      "trackId": "vichaar-aabhaari-hoon",
-      "score": 65.3,
-      "lastWeek": 9,
-      "peak": 9,
-      "weeksOnChart": 2,
-      "stats": {
-        "views": 912469,
-        "likes": 31610,
-        "comments": 1483,
-        "publishedAt": "2026-09-30T08:00:08Z",
-        "weeklyViews": 45523,
-        "growthPct": 5
-      },
-      "ids": {
-        "youtubeVideoId": "i8GxFcE-1XE"
-      }
-    },
-    {
-      "rank": 10,
-      "trackId": "emiway-bantai-jab-tak-mein-zinda-hu",
-      "score": 64.9,
-      "lastWeek": 24,
-      "peak": 10,
-      "weeksOnChart": 2,
-      "stats": {
-        "views": 992550,
-        "likes": 40869,
-        "comments": 3204,
-        "publishedAt": "2026-06-06T19:31:16Z",
-        "weeklyViews": 16499,
-        "growthPct": 2
-      },
-      "ids": {
-        "youtubeVideoId": "TkzSDa-yiXA"
-      }
-    },
-    {
       "rank": 11,
-      "trackId": "vichaar-underdog-shit",
-      "score": 64.8,
-      "lastWeek": 20,
-      "peak": 11,
-      "weeksOnChart": 2,
-      "stats": {
-        "views": 897939,
-        "likes": 27194,
-        "comments": 1102,
-        "publishedAt": "2026-09-17T05:30:09Z",
-        "weeklyViews": 62159,
-        "growthPct": 7
-      },
-      "ids": {
-        "youtubeVideoId": "v-r0YAtcpVU"
-      }
-    },
-    {
-      "rank": 12,
-      "trackId": "emiway-bantai-lazanus",
-      "score": 64.7,
-      "lastWeek": 12,
-      "peak": 12,
-      "weeksOnChart": 2,
-      "stats": {
-        "views": 5393080,
-        "likes": 272633,
-        "comments": 27037,
-        "publishedAt": "2026-02-02T00:07:27Z",
-        "weeklyViews": 33580,
-        "growthPct": 1
-      },
-      "ids": {
-        "youtubeVideoId": "TUfQJTmROGM"
-      }
-    },
-    {
-      "rank": 13,
       "trackId": "emiway-bantai-bolra-hai-sadak",
-      "score": 64.6,
-      "lastWeek": 4,
+      "score": 66,
+      "lastWeek": 13,
       "peak": 4,
-      "weeksOnChart": 2,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 2215158,
-        "likes": 266727,
-        "comments": 19485,
+        "views": 2227948,
+        "likes": 266831,
+        "comments": 19474,
         "publishedAt": "2026-07-22T05:30:06Z",
-        "weeklyViews": 10398,
-        "growthPct": 0
+        "weeklyViews": 12790,
+        "growthPct": 1
       },
       "ids": {
         "youtubeVideoId": "2CXaSdz-5hI"
       }
     },
     {
-      "rank": 14,
-      "trackId": "emiway-bantai-jaane-jaa",
-      "score": 64.6,
-      "lastWeek": 14,
-      "peak": 14,
-      "weeksOnChart": 2,
+      "rank": 12,
+      "trackId": "seedhe-maut-dilli-jale-roz",
+      "score": 65.8,
+      "lastWeek": 7,
+      "peak": 7,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 1210859,
-        "likes": 65709,
+        "views": 462398,
+        "likes": 54533,
+        "comments": 2430,
+        "publishedAt": "2026-07-25T14:28:56Z",
+        "weeklyViews": 4547,
+        "growthPct": 1
+      },
+      "ids": {
+        "youtubeVideoId": "iX3-YZb1-S0"
+      }
+    },
+    {
+      "rank": 13,
+      "trackId": "emiway-bantai-jaane-jaa",
+      "score": 65.6,
+      "lastWeek": 14,
+      "peak": 13,
+      "weeksOnChart": 3,
+      "stats": {
+        "views": 1225170,
+        "likes": 65835,
         "comments": 4931,
         "publishedAt": "2026-04-25T19:07:03Z",
-        "weeklyViews": 12188,
+        "weeklyViews": 14311,
         "growthPct": 1
       },
       "ids": {
@@ -270,37 +251,113 @@
       }
     },
     {
-      "rank": 15,
-      "trackId": "mc-stan-ek-din-pyaar",
-      "score": 64,
-      "lastWeek": 54,
-      "peak": 15,
-      "weeksOnChart": 2,
+      "rank": 14,
+      "trackId": "divine-saucy",
+      "score": 64.6,
+      "lastWeek": 22,
+      "peak": 14,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 218421175,
-        "likes": 4262011,
-        "comments": 75425,
-        "publishedAt": "2020-10-14T03:30:11Z",
-        "weeklyViews": 1099466,
+        "views": 21508221,
+        "likes": 144063,
+        "comments": 3514,
+        "publishedAt": "2026-03-31T06:31:34Z",
+        "weeklyViews": 550234,
+        "growthPct": 3
+      },
+      "ids": {
+        "youtubeVideoId": "xSLS4xgHYQY"
+      }
+    },
+    {
+      "rank": 15,
+      "trackId": "mc-stan-basti-ka-hasti",
+      "score": 64.5,
+      "lastWeek": 6,
+      "peak": 6,
+      "weeksOnChart": 3,
+      "stats": {
+        "views": 15958947,
+        "likes": 642362,
+        "comments": 30527,
+        "publishedAt": "2023-10-22T06:30:12Z",
+        "weeklyViews": 107559,
         "growthPct": 1
       },
       "ids": {
-        "youtubeVideoId": "gU74mNz64VU"
+        "youtubeVideoId": "GbXtCRCT0Ig"
       }
     },
     {
       "rank": 16,
+      "trackId": "emiway-bantai-jab-tak-mein-zinda-hu",
+      "score": 64.4,
+      "lastWeek": 10,
+      "peak": 10,
+      "weeksOnChart": 3,
+      "stats": {
+        "views": 1010328,
+        "likes": 41053,
+        "comments": 3211,
+        "publishedAt": "2026-06-06T19:31:16Z",
+        "weeklyViews": 17778,
+        "growthPct": 2
+      },
+      "ids": {
+        "youtubeVideoId": "TkzSDa-yiXA"
+      }
+    },
+    {
+      "rank": 17,
+      "trackId": "vichaar-aabhaari-hoon",
+      "score": 64.2,
+      "lastWeek": 9,
+      "peak": 9,
+      "weeksOnChart": 3,
+      "stats": {
+        "views": 953395,
+        "likes": 32086,
+        "comments": 1492,
+        "publishedAt": "2026-09-30T08:00:08Z",
+        "weeklyViews": 40926,
+        "growthPct": 4
+      },
+      "ids": {
+        "youtubeVideoId": "i8GxFcE-1XE"
+      }
+    },
+    {
+      "rank": 18,
+      "trackId": "vichaar-underdog-shit",
+      "score": 63.8,
+      "lastWeek": 11,
+      "peak": 11,
+      "weeksOnChart": 3,
+      "stats": {
+        "views": 958881,
+        "likes": 27726,
+        "comments": 1105,
+        "publishedAt": "2026-09-17T05:30:09Z",
+        "weeklyViews": 60942,
+        "growthPct": 7
+      },
+      "ids": {
+        "youtubeVideoId": "v-r0YAtcpVU"
+      }
+    },
+    {
+      "rank": 19,
       "trackId": "emiway-bantai-primo",
-      "score": 63.5,
+      "score": 63.7,
       "lastWeek": 16,
       "peak": 16,
-      "weeksOnChart": 2,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 1535696,
-        "likes": 67826,
-        "comments": 3730,
+        "views": 1555497,
+        "likes": 68003,
+        "comments": 3724,
         "publishedAt": "2026-06-07T05:30:06Z",
-        "weeklyViews": 17745,
+        "weeklyViews": 19801,
         "growthPct": 1
       },
       "ids": {
@@ -308,37 +365,37 @@
       }
     },
     {
-      "rank": 17,
-      "trackId": "emiway-bantai-the-final-burial-of-lazanus",
-      "score": 63.1,
-      "lastWeek": 13,
-      "peak": 13,
-      "weeksOnChart": 2,
+      "rank": 20,
+      "trackId": "emiway-bantai-lazanus",
+      "score": 63.4,
+      "lastWeek": 12,
+      "peak": 12,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 2307711,
-        "likes": 138442,
-        "comments": 13510,
-        "publishedAt": "2026-02-18T20:02:51Z",
-        "weeklyViews": 13090,
+        "views": 5427503,
+        "likes": 272999,
+        "comments": 27032,
+        "publishedAt": "2026-02-02T00:07:27Z",
+        "weeklyViews": 34423,
         "growthPct": 1
       },
       "ids": {
-        "youtubeVideoId": "AkwFgLkvA4U"
+        "youtubeVideoId": "TUfQJTmROGM"
       }
     },
     {
-      "rank": 18,
+      "rank": 21,
       "trackId": "emiway-bantai-dreams-prod-by-memax-emiway-bantai",
       "score": 62.8,
-      "lastWeek": 8,
+      "lastWeek": 18,
       "peak": 8,
-      "weeksOnChart": 2,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 1293954,
-        "likes": 81639,
-        "comments": 5883,
+        "views": 1303329,
+        "likes": 81709,
+        "comments": 5881,
         "publishedAt": "2026-04-18T18:30:07Z",
-        "weeklyViews": 8964,
+        "weeklyViews": 9375,
         "growthPct": 1
       },
       "ids": {
@@ -346,37 +403,18 @@
       }
     },
     {
-      "rank": 19,
-      "trackId": "vichaar-stoic",
-      "score": 62.8,
-      "lastWeek": 21,
-      "peak": 19,
-      "weeksOnChart": 2,
-      "stats": {
-        "views": 276886,
-        "likes": 14059,
-        "comments": 333,
-        "publishedAt": "2026-08-07T14:30:21Z",
-        "weeklyViews": 6272,
-        "growthPct": 2
-      },
-      "ids": {
-        "youtubeVideoId": "Dn6O2le_Bt0"
-      }
-    },
-    {
-      "rank": 20,
+      "rank": 22,
       "trackId": "hanumankind-big-dawgs",
-      "score": 62.5,
-      "lastWeek": 25,
+      "score": 62.6,
+      "lastWeek": 20,
       "peak": 20,
-      "weeksOnChart": 2,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 326872824,
-        "likes": 6863722,
-        "comments": 245600,
+        "views": 327997801,
+        "likes": 6868464,
+        "comments": 245584,
         "publishedAt": "2024-07-10T05:41:01Z",
-        "weeklyViews": 1065363,
+        "weeklyViews": 1124977,
         "growthPct": 0
       },
       "ids": {
@@ -384,56 +422,37 @@
       }
     },
     {
-      "rank": 21,
-      "trackId": "divine-homicide",
-      "score": 62,
-      "lastWeek": 51,
-      "peak": 21,
-      "weeksOnChart": 2,
+      "rank": 23,
+      "trackId": "emiway-bantai-the-final-burial-of-lazanus",
+      "score": 62.5,
+      "lastWeek": 17,
+      "peak": 13,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 2143140,
-        "likes": 79478,
-        "comments": 4758,
-        "publishedAt": "2026-01-06T06:30:16Z",
-        "weeklyViews": 25052,
+        "views": 2321667,
+        "likes": 138559,
+        "comments": 13510,
+        "publishedAt": "2026-02-18T20:02:51Z",
+        "weeklyViews": 13956,
         "growthPct": 1
       },
       "ids": {
-        "youtubeVideoId": "Dg_auoqsZ-I"
+        "youtubeVideoId": "AkwFgLkvA4U"
       }
     },
     {
-      "rank": 22,
-      "trackId": "divine-saucy",
-      "score": 61.7,
-      "lastWeek": 35,
-      "peak": 22,
-      "weeksOnChart": 2,
-      "stats": {
-        "views": 20957987,
-        "likes": 143990,
-        "comments": 3515,
-        "publishedAt": "2026-03-31T06:31:34Z",
-        "weeklyViews": 312792,
-        "growthPct": 2
-      },
-      "ids": {
-        "youtubeVideoId": "xSLS4xgHYQY"
-      }
-    },
-    {
-      "rank": 23,
+      "rank": 24,
       "trackId": "emiway-bantai-big-stepper",
-      "score": 61.3,
-      "lastWeek": 17,
+      "score": 61.1,
+      "lastWeek": 23,
       "peak": 17,
-      "weeksOnChart": 2,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 3646965,
-        "likes": 212594,
-        "comments": 21488,
+        "views": 3663212,
+        "likes": 212725,
+        "comments": 21487,
         "publishedAt": "2025-12-28T20:32:21Z",
-        "weeklyViews": 15860,
+        "weeklyViews": 16247,
         "growthPct": 0
       },
       "ids": {
@@ -441,37 +460,37 @@
       }
     },
     {
-      "rank": 24,
-      "trackId": "emiway-bantai-meri-tarah-kaun",
-      "score": 61,
-      "lastWeek": 32,
-      "peak": 24,
-      "weeksOnChart": 2,
+      "rank": 25,
+      "trackId": "vichaar-stoic",
+      "score": 61.1,
+      "lastWeek": 19,
+      "peak": 19,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 433471,
-        "likes": 19326,
-        "comments": 1219,
-        "publishedAt": "2026-06-06T19:30:22Z",
-        "weeklyViews": 6095,
-        "growthPct": 1
+        "views": 282381,
+        "likes": 14109,
+        "comments": 335,
+        "publishedAt": "2026-08-07T14:30:21Z",
+        "weeklyViews": 5495,
+        "growthPct": 2
       },
       "ids": {
-        "youtubeVideoId": "8i-Y3NhS2a8"
+        "youtubeVideoId": "Dn6O2le_Bt0"
       }
     },
     {
-      "rank": 25,
+      "rank": 26,
       "trackId": "naam-sujal-bajesh-vishay",
-      "score": 61,
-      "lastWeek": 23,
+      "score": 60.8,
+      "lastWeek": 25,
       "peak": 23,
-      "weeksOnChart": 2,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 1108711,
-        "likes": 30241,
-        "comments": 1606,
+        "views": 1142463,
+        "likes": 30616,
+        "comments": 1609,
         "publishedAt": "2026-09-03T05:32:16Z",
-        "weeklyViews": 32046,
+        "weeklyViews": 33752,
         "growthPct": 3
       },
       "ids": {
@@ -479,132 +498,56 @@
       }
     },
     {
-      "rank": 26,
+      "rank": 27,
       "trackId": "emiway-bantai-aflatoon",
-      "score": 60.7,
-      "lastWeek": 33,
+      "score": 60.6,
+      "lastWeek": 26,
       "peak": 26,
-      "weeksOnChart": 2,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 5709408,
-        "likes": 278021,
-        "comments": 16814,
+        "views": 5741105,
+        "likes": 278259,
+        "comments": 16815,
         "publishedAt": "2025-11-12T18:30:07Z",
-        "weeklyViews": 27990,
-        "growthPct": 0
+        "weeklyViews": 31697,
+        "growthPct": 1
       },
       "ids": {
         "youtubeVideoId": "BpWK_4hrQTs"
       }
     },
     {
-      "rank": 27,
-      "trackId": "naam-sujal-it-s-about-time",
-      "score": 60.5,
-      "lastWeek": 34,
-      "peak": 27,
-      "weeksOnChart": 2,
-      "stats": {
-        "views": 1805846,
-        "likes": 62922,
-        "comments": 1707,
-        "publishedAt": "2026-04-29T05:30:04Z",
-        "weeklyViews": 23975,
-        "growthPct": 1
-      },
-      "ids": {
-        "youtubeVideoId": "XM_Zfihnkb4"
-      }
-    },
-    {
       "rank": 28,
-      "trackId": "emiway-bantai-follow-karo",
-      "score": 60.1,
-      "lastWeek": 27,
-      "peak": 27,
-      "weeksOnChart": 2,
+      "trackId": "mc-stan-ek-din-pyaar",
+      "score": 60.6,
+      "lastWeek": 15,
+      "peak": 15,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 1850213,
-        "likes": 110378,
-        "comments": 7248,
-        "publishedAt": "2026-01-24T14:30:07Z",
-        "weeklyViews": 9682,
-        "growthPct": 1
+        "views": 219253728,
+        "likes": 4268232,
+        "comments": 75479,
+        "publishedAt": "2020-10-14T03:30:11Z",
+        "weeklyViews": 832553,
+        "growthPct": 0
       },
       "ids": {
-        "youtubeVideoId": "nmj0vAehPtI"
+        "youtubeVideoId": "gU74mNz64VU"
       }
     },
     {
       "rank": 29,
-      "trackId": "sidhu-moose-wala-so-high",
-      "score": 60,
-      "lastWeek": 57,
-      "peak": 29,
-      "weeksOnChart": 2,
-      "stats": {
-        "views": 988819872,
-        "likes": 8947846,
-        "comments": 297666,
-        "publishedAt": "2017-08-10T04:30:30Z",
-        "weeklyViews": 2594696,
-        "growthPct": 0
-      },
-      "ids": {
-        "youtubeVideoId": "GgmFC8y8q3k"
-      }
-    },
-    {
-      "rank": 30,
-      "trackId": "mc-altaf-tap-kar",
-      "score": 59.8,
-      "lastWeek": 47,
-      "peak": 30,
-      "weeksOnChart": 2,
-      "stats": {
-        "views": 2578504,
-        "likes": 43631,
-        "comments": 1004,
-        "publishedAt": "2026-05-26T11:30:06Z",
-        "weeklyViews": 63900,
-        "growthPct": 3
-      },
-      "ids": {
-        "youtubeVideoId": "TcqQTIAWrCo"
-      }
-    },
-    {
-      "rank": 31,
-      "trackId": "sidhu-moose-wala-the-last-ride",
-      "score": 59.3,
-      "lastWeek": 37,
-      "peak": 31,
-      "weeksOnChart": 2,
-      "stats": {
-        "views": 420057100,
-        "likes": 6060031,
-        "comments": 312615,
-        "publishedAt": "2022-05-15T12:30:13Z",
-        "weeklyViews": 1132647,
-        "growthPct": 0
-      },
-      "ids": {
-        "youtubeVideoId": "6xoB4ZiKKn0"
-      }
-    },
-    {
-      "rank": 32,
       "trackId": "emiway-bantai-kyu",
-      "score": 59.2,
-      "lastWeek": 15,
+      "score": 60.5,
+      "lastWeek": 32,
       "peak": 15,
-      "weeksOnChart": 2,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 597012,
-        "likes": 35063,
+        "views": 602734,
+        "likes": 35176,
         "comments": 1490,
         "publishedAt": "2026-06-07T05:30:06Z",
-        "weeklyViews": 4978,
+        "weeklyViews": 5722,
         "growthPct": 1
       },
       "ids": {
@@ -612,75 +555,94 @@
       }
     },
     {
-      "rank": 33,
-      "trackId": "emiway-bantai-10-20",
-      "score": 59.1,
-      "lastWeek": 26,
-      "peak": 26,
-      "weeksOnChart": 2,
+      "rank": 30,
+      "trackId": "naam-sujal-it-s-about-time",
+      "score": 60.3,
+      "lastWeek": 27,
+      "peak": 27,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 1327917,
-        "likes": 92238,
-        "comments": 5970,
-        "publishedAt": "2026-01-09T18:30:08Z",
-        "weeklyViews": 6128,
+        "views": 1831624,
+        "likes": 63262,
+        "comments": 1712,
+        "publishedAt": "2026-04-29T05:30:04Z",
+        "weeklyViews": 25778,
+        "growthPct": 1
+      },
+      "ids": {
+        "youtubeVideoId": "XM_Zfihnkb4"
+      }
+    },
+    {
+      "rank": 31,
+      "trackId": "emiway-bantai-bus-tu",
+      "score": 60.1,
+      "lastWeek": 49,
+      "peak": 18,
+      "weeksOnChart": 3,
+      "stats": {
+        "views": 386545,
+        "likes": 25299,
+        "comments": 978,
+        "publishedAt": "2026-06-07T05:30:07Z",
+        "weeklyViews": 3632,
+        "growthPct": 1
+      },
+      "ids": {
+        "youtubeVideoId": "dYLKOktT2e4"
+      }
+    },
+    {
+      "rank": 32,
+      "trackId": "emiway-bantai-follow-karo",
+      "score": 59.8,
+      "lastWeek": 28,
+      "peak": 27,
+      "weeksOnChart": 3,
+      "stats": {
+        "views": 1860658,
+        "likes": 110445,
+        "comments": 7242,
+        "publishedAt": "2026-01-24T14:30:07Z",
+        "weeklyViews": 10445,
+        "growthPct": 1
+      },
+      "ids": {
+        "youtubeVideoId": "nmj0vAehPtI"
+      }
+    },
+    {
+      "rank": 33,
+      "trackId": "sidhu-moose-wala-so-high",
+      "score": 59.8,
+      "lastWeek": 29,
+      "peak": 29,
+      "weeksOnChart": 3,
+      "stats": {
+        "views": 991326635,
+        "likes": 8962658,
+        "comments": 299029,
+        "publishedAt": "2017-08-10T04:30:30Z",
+        "weeklyViews": 2506763,
         "growthPct": 0
       },
       "ids": {
-        "youtubeVideoId": "WKXEKLcftkc"
+        "youtubeVideoId": "GgmFC8y8q3k"
       }
     },
     {
       "rank": 34,
-      "trackId": "emiway-bantai-legend",
-      "score": 58.8,
-      "lastWeek": 28,
-      "peak": 28,
-      "weeksOnChart": 2,
-      "stats": {
-        "views": 561580,
-        "likes": 25518,
-        "comments": 1463,
-        "publishedAt": "2026-06-06T19:32:49Z",
-        "weeklyViews": 6046,
-        "growthPct": 1
-      },
-      "ids": {
-        "youtubeVideoId": "ei0cg1w28HM"
-      }
-    },
-    {
-      "rank": 35,
-      "trackId": "emiway-bantai-seedha-mai-kal-jackson",
-      "score": 58.7,
-      "lastWeek": 11,
-      "peak": 11,
-      "weeksOnChart": 2,
-      "stats": {
-        "views": 3553673,
-        "likes": 178888,
-        "comments": 11012,
-        "publishedAt": "2026-03-21T17:35:43Z",
-        "weeklyViews": 17312,
-        "growthPct": 0
-      },
-      "ids": {
-        "youtubeVideoId": "_wNDguNIUZc"
-      }
-    },
-    {
-      "rank": 36,
       "trackId": "emiway-bantai-bhule-nahi",
-      "score": 58.5,
-      "lastWeek": 39,
-      "peak": 36,
-      "weeksOnChart": 2,
+      "score": 59.7,
+      "lastWeek": 36,
+      "peak": 34,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 2867644,
-        "likes": 114374,
-        "comments": 6570,
+        "views": 2891674,
+        "likes": 114552,
+        "comments": 6578,
         "publishedAt": "2025-12-18T20:13:02Z",
-        "weeklyViews": 20414,
+        "weeklyViews": 24030,
         "growthPct": 1
       },
       "ids": {
@@ -688,79 +650,117 @@
       }
     },
     {
-      "rank": 37,
-      "trackId": "emiway-bantai-jo-mein-hu",
-      "score": 58.3,
-      "lastWeek": 40,
-      "peak": 37,
-      "weeksOnChart": 2,
+      "rank": 35,
+      "trackId": "emiway-bantai-seedha-mai-kal-jackson",
+      "score": 59.7,
+      "lastWeek": 35,
+      "peak": 11,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 402833,
-        "likes": 15429,
-        "comments": 933,
-        "publishedAt": "2026-06-06T19:31:42Z",
-        "weeklyViews": 6871,
-        "growthPct": 2
+        "views": 3574030,
+        "likes": 179040,
+        "comments": 11014,
+        "publishedAt": "2026-03-21T17:35:43Z",
+        "weeklyViews": 20357,
+        "growthPct": 1
       },
       "ids": {
-        "youtubeVideoId": "J5sW7vGr3Ek"
+        "youtubeVideoId": "_wNDguNIUZc"
+      }
+    },
+    {
+      "rank": 36,
+      "trackId": "emiway-bantai-meri-tarah-kaun",
+      "score": 59.6,
+      "lastWeek": 24,
+      "peak": 24,
+      "weeksOnChart": 3,
+      "stats": {
+        "views": 439522,
+        "likes": 19387,
+        "comments": 1224,
+        "publishedAt": "2026-06-06T19:30:22Z",
+        "weeklyViews": 6051,
+        "growthPct": 1
+      },
+      "ids": {
+        "youtubeVideoId": "8i-Y3NhS2a8"
+      }
+    },
+    {
+      "rank": 37,
+      "trackId": "mc-altaf-tap-kar",
+      "score": 59.5,
+      "lastWeek": 30,
+      "peak": 30,
+      "weeksOnChart": 3,
+      "stats": {
+        "views": 2646947,
+        "likes": 44022,
+        "comments": 1011,
+        "publishedAt": "2026-05-26T11:30:06Z",
+        "weeklyViews": 68443,
+        "growthPct": 3
+      },
+      "ids": {
+        "youtubeVideoId": "TcqQTIAWrCo"
       }
     },
     {
       "rank": 38,
-      "trackId": "emiway-bantai-life",
-      "score": 58.3,
-      "lastWeek": 30,
-      "peak": 30,
-      "weeksOnChart": 2,
+      "trackId": "emiway-bantai-10-20",
+      "score": 59.2,
+      "lastWeek": 33,
+      "peak": 26,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 424789,
-        "likes": 21321,
-        "comments": 1382,
-        "publishedAt": "2026-06-06T19:28:17Z",
-        "weeklyViews": 4266,
-        "growthPct": 1
+        "views": 1334470,
+        "likes": 92242,
+        "comments": 5965,
+        "publishedAt": "2026-01-09T18:30:08Z",
+        "weeklyViews": 6553,
+        "growthPct": 0
       },
       "ids": {
-        "youtubeVideoId": "PWd1TkIxeXo"
+        "youtubeVideoId": "WKXEKLcftkc"
       }
     },
     {
       "rank": 39,
-      "trackId": "naezy-bambai",
-      "score": 58.1,
-      "lastWeek": 19,
-      "peak": 19,
-      "weeksOnChart": 2,
+      "trackId": "emiway-bantai-legend",
+      "score": 59.1,
+      "lastWeek": 34,
+      "peak": 28,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 102817,
-        "likes": 7559,
-        "comments": 894,
-        "publishedAt": "2026-07-24T10:30:06Z",
-        "weeklyViews": 1010,
+        "views": 568207,
+        "likes": 25586,
+        "comments": 1463,
+        "publishedAt": "2026-06-06T19:32:49Z",
+        "weeklyViews": 6627,
         "growthPct": 1
       },
       "ids": {
-        "youtubeVideoId": "tmiEQDQj5To"
+        "youtubeVideoId": "ei0cg1w28HM"
       }
     },
     {
       "rank": 40,
-      "trackId": "krsna-buss-down",
-      "score": 57.4,
-      "lastWeek": 38,
-      "peak": 38,
-      "weeksOnChart": 2,
+      "trackId": "divine-homicide",
+      "score": 58.3,
+      "lastWeek": 21,
+      "peak": 21,
+      "weeksOnChart": 3,
       "stats": {
-        "views": 334766,
-        "likes": 6286,
-        "comments": 176,
-        "publishedAt": "2026-09-29T05:16:24Z",
-        "weeklyViews": 29785,
-        "growthPct": 10
+        "views": 2163562,
+        "likes": 79663,
+        "comments": 4759,
+        "publishedAt": "2026-01-06T06:30:16Z",
+        "weeklyViews": 20422,
+        "growthPct": 1
       },
       "ids": {
-        "youtubeVideoId": "156_7w_W5j0"
+        "youtubeVideoId": "Dg_auoqsZ-I"
       }
     }
   ],
@@ -768,55 +768,74 @@
     "bubbling": [
       {
         "rank": 41,
-        "trackId": "vichaar-blow-up",
-        "score": 57.2,
-        "lastWeek": null,
-        "peak": 41,
-        "weeksOnChart": 1,
+        "trackId": "sidhu-moose-wala-the-last-ride",
+        "score": 58.3,
+        "lastWeek": 31,
+        "peak": 31,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 653966,
-          "likes": 19958,
-          "comments": 749,
-          "publishedAt": "2026-03-06T15:38:11Z",
-          "weeklyViews": 11745,
-          "growthPct": 2
+          "views": 421074214,
+          "likes": 6066454,
+          "comments": 312899,
+          "publishedAt": "2022-05-15T12:30:13Z",
+          "weeklyViews": 1017114,
+          "growthPct": 0
         },
         "ids": {
-          "youtubeVideoId": "g6jL-W_wUoE"
+          "youtubeVideoId": "6xoB4ZiKKn0"
         }
       },
       {
         "rank": 42,
-        "trackId": "brodha-v-underrated",
-        "score": 57,
-        "lastWeek": null,
-        "peak": 42,
-        "weeksOnChart": 1,
+        "trackId": "emiway-bantai-jo-mein-hu",
+        "score": 58.1,
+        "lastWeek": 37,
+        "peak": 37,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 354501,
-          "likes": 21137,
-          "comments": 1291,
-          "publishedAt": "2025-12-12T06:30:24Z",
-          "weeklyViews": 2787,
-          "growthPct": 1
+          "views": 410128,
+          "likes": 15486,
+          "comments": 937,
+          "publishedAt": "2026-06-06T19:31:42Z",
+          "weeklyViews": 7295,
+          "growthPct": 2
         },
         "ids": {
-          "youtubeVideoId": "4P4Iee1WaAc"
+          "youtubeVideoId": "J5sW7vGr3Ek"
         }
       },
       {
         "rank": 43,
-        "trackId": "emiway-bantai-hawa",
-        "score": 56.5,
-        "lastWeek": 52,
-        "peak": 43,
-        "weeksOnChart": 2,
+        "trackId": "emiway-bantai-life",
+        "score": 57.8,
+        "lastWeek": 38,
+        "peak": 30,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 3879961,
-          "likes": 153564,
-          "comments": 9210,
+          "views": 429210,
+          "likes": 21374,
+          "comments": 1384,
+          "publishedAt": "2026-06-06T19:28:17Z",
+          "weeklyViews": 4421,
+          "growthPct": 1
+        },
+        "ids": {
+          "youtubeVideoId": "PWd1TkIxeXo"
+        }
+      },
+      {
+        "rank": 44,
+        "trackId": "emiway-bantai-hawa",
+        "score": 57.5,
+        "lastWeek": 43,
+        "peak": 43,
+        "weeksOnChart": 3,
+        "stats": {
+          "views": 3904903,
+          "likes": 153737,
+          "comments": 9212,
           "publishedAt": "2025-11-07T19:18:00Z",
-          "weeklyViews": 20350,
+          "weeklyViews": 24942,
           "growthPct": 1
         },
         "ids": {
@@ -824,56 +843,113 @@
         }
       },
       {
-        "rank": 44,
-        "trackId": "king-tu-aake-dekhle",
-        "score": 56.4,
-        "lastWeek": 41,
-        "peak": 41,
-        "weeksOnChart": 2,
-        "stats": {
-          "views": 666611613,
-          "likes": 7549181,
-          "comments": 148770,
-          "publishedAt": "2020-09-01T17:30:11Z",
-          "weeklyViews": 1131734,
-          "growthPct": 0
-        },
-        "ids": {
-          "youtubeVideoId": "A66TYFdz8YA"
-        }
-      },
-      {
         "rank": 45,
-        "trackId": "badshah-dj-waley-babu",
-        "score": 56,
-        "lastWeek": null,
-        "peak": 45,
-        "weeksOnChart": 1,
+        "trackId": "naezy-bambai",
+        "score": 57.5,
+        "lastWeek": 39,
+        "peak": 19,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 626213906,
-          "likes": 2954126,
-          "comments": 47713,
-          "publishedAt": "2015-07-17T04:59:44Z",
-          "weeklyViews": 1460522,
-          "growthPct": 0
+          "views": 103816,
+          "likes": 7584,
+          "comments": 896,
+          "publishedAt": "2026-07-24T10:30:06Z",
+          "weeklyViews": 999,
+          "growthPct": 1
         },
         "ids": {
-          "youtubeVideoId": "OulN7vTDq1I"
+          "youtubeVideoId": "tmiEQDQj5To"
         }
       },
       {
         "rank": 46,
-        "trackId": "brodha-v-aathma-rama",
-        "score": 56,
-        "lastWeek": null,
+        "trackId": "naam-sujal-talab",
+        "score": 57,
+        "lastWeek": 47,
         "peak": 46,
-        "weeksOnChart": 1,
+        "weeksOnChart": 2,
         "stats": {
-          "views": 99088690,
-          "likes": 2450801,
-          "comments": 84009,
+          "views": 245196,
+          "likes": 10078,
+          "comments": 529,
+          "publishedAt": "2026-02-25T19:12:06Z",
+          "weeklyViews": 3964,
+          "growthPct": 2
+        },
+        "ids": {
+          "youtubeVideoId": "3uSXConTE4w"
+        }
+      },
+      {
+        "rank": 47,
+        "trackId": "krsna-buss-down",
+        "score": 56.4,
+        "lastWeek": 40,
+        "peak": 38,
+        "weeksOnChart": 3,
+        "stats": {
+          "views": 363765,
+          "likes": 6632,
+          "comments": 182,
+          "publishedAt": "2026-09-29T05:16:24Z",
+          "weeklyViews": 28999,
+          "growthPct": 9
+        },
+        "ids": {
+          "youtubeVideoId": "156_7w_W5j0"
+        }
+      },
+      {
+        "rank": 48,
+        "trackId": "brodha-v-underrated",
+        "score": 56.3,
+        "lastWeek": 42,
+        "peak": 42,
+        "weeksOnChart": 2,
+        "stats": {
+          "views": 357304,
+          "likes": 21178,
+          "comments": 1293,
+          "publishedAt": "2025-12-12T06:30:24Z",
+          "weeklyViews": 2803,
+          "growthPct": 1
+        },
+        "ids": {
+          "youtubeVideoId": "4P4Iee1WaAc"
+        }
+      },
+      {
+        "rank": 49,
+        "trackId": "vichaar-blow-up",
+        "score": 56.1,
+        "lastWeek": 41,
+        "peak": 41,
+        "weeksOnChart": 2,
+        "stats": {
+          "views": 664976,
+          "likes": 20051,
+          "comments": 750,
+          "publishedAt": "2026-03-06T15:38:11Z",
+          "weeklyViews": 11010,
+          "growthPct": 2
+        },
+        "ids": {
+          "youtubeVideoId": "g6jL-W_wUoE"
+        }
+      },
+      {
+        "rank": 50,
+        "trackId": "brodha-v-aathma-rama",
+        "score": 55.3,
+        "lastWeek": 46,
+        "peak": 46,
+        "weeksOnChart": 2,
+        "stats": {
+          "views": 99309501,
+          "likes": 2452306,
+          "comments": 84048,
           "publishedAt": "2012-11-16T10:30:09Z",
-          "weeklyViews": 232457,
+          "weeklyViews": 220811,
           "growthPct": 0
         },
         "ids": {
@@ -881,151 +957,56 @@
         }
       },
       {
-        "rank": 47,
-        "trackId": "naam-sujal-talab",
-        "score": 56,
-        "lastWeek": null,
-        "peak": 47,
-        "weeksOnChart": 1,
-        "stats": {
-          "views": 241232,
-          "likes": 9987,
-          "comments": 526,
-          "publishedAt": "2026-02-25T19:12:06Z",
-          "weeklyViews": 3140,
-          "growthPct": 1
-        },
-        "ids": {
-          "youtubeVideoId": "3uSXConTE4w"
-        }
-      },
-      {
-        "rank": 48,
-        "trackId": "naam-sujal-tha-waddup",
-        "score": 55.5,
-        "lastWeek": null,
-        "peak": 48,
-        "weeksOnChart": 1,
-        "stats": {
-          "views": 481870,
-          "likes": 17409,
-          "comments": 810,
-          "publishedAt": "2026-03-01T06:00:47Z",
-          "weeklyViews": 5787,
-          "growthPct": 1
-        },
-        "ids": {
-          "youtubeVideoId": "YWC9cH-t9kY"
-        }
-      },
-      {
-        "rank": 49,
-        "trackId": "emiway-bantai-bus-tu",
-        "score": 55.4,
-        "lastWeek": 18,
-        "peak": 18,
-        "weeksOnChart": 2,
-        "stats": {
-          "views": 382913,
-          "likes": 25194,
-          "comments": 977,
-          "publishedAt": "2026-06-07T05:30:07Z",
-          "weeklyViews": 2224,
-          "growthPct": 1
-        },
-        "ids": {
-          "youtubeVideoId": "dYLKOktT2e4"
-        }
-      },
-      {
-        "rank": 50,
-        "trackId": "divine-tequila-dance",
-        "score": 55.3,
-        "lastWeek": null,
-        "peak": 50,
-        "weeksOnChart": 1,
-        "stats": {
-          "views": 944385,
-          "likes": 27694,
-          "comments": 954,
-          "publishedAt": "2025-12-18T17:17:23Z",
-          "weeklyViews": 12109,
-          "growthPct": 1
-        },
-        "ids": {
-          "youtubeVideoId": "Pgt5UDN2HyI"
-        }
-      },
-      {
         "rank": 51,
-        "trackId": "naam-sujal-nmc-ka-dagga",
-        "score": 54.6,
-        "lastWeek": null,
-        "peak": 51,
-        "weeksOnChart": 1,
+        "trackId": "king-tu-aake-dekhle",
+        "score": 55.3,
+        "lastWeek": 44,
+        "peak": 41,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 706479,
-          "likes": 13748,
-          "comments": 502,
-          "publishedAt": "2026-02-25T18:36:06Z",
-          "weeklyViews": 14648,
-          "growthPct": 2
+          "views": 667603651,
+          "likes": 7554324,
+          "comments": 148825,
+          "publishedAt": "2020-09-01T17:30:11Z",
+          "weeklyViews": 992038,
+          "growthPct": 0
         },
         "ids": {
-          "youtubeVideoId": "GeTdGkUFmi0"
+          "youtubeVideoId": "A66TYFdz8YA"
         }
       },
       {
         "rank": 52,
-        "trackId": "badshah-players",
-        "score": 54.5,
-        "lastWeek": null,
-        "peak": 52,
-        "weeksOnChart": 1,
+        "trackId": "badshah-dj-waley-babu",
+        "score": 55.1,
+        "lastWeek": 45,
+        "peak": 45,
+        "weeksOnChart": 2,
         "stats": {
-          "views": 213379871,
-          "likes": 1646648,
-          "comments": 43966,
-          "publishedAt": "2022-12-21T05:30:04Z",
-          "weeklyViews": 666893,
+          "views": 627508530,
+          "likes": 2958910,
+          "comments": 47754,
+          "publishedAt": "2015-07-17T04:59:44Z",
+          "weeklyViews": 1294624,
           "growthPct": 0
         },
         "ids": {
-          "youtubeVideoId": "CeFQO9MQNqs"
+          "youtubeVideoId": "OulN7vTDq1I"
         }
       },
       {
         "rank": 53,
-        "trackId": "seedhe-maut-nanchaku",
-        "score": 54.1,
-        "lastWeek": null,
-        "peak": 53,
-        "weeksOnChart": 1,
-        "stats": {
-          "views": 42470848,
-          "likes": 770115,
-          "comments": 30704,
-          "publishedAt": "2021-07-22T18:30:12Z",
-          "weeklyViews": 170133,
-          "growthPct": 0
-        },
-        "ids": {
-          "youtubeVideoId": "3beb3HXqCms"
-        }
-      },
-      {
-        "rank": 54,
         "trackId": "naam-sujal-killa-klassic",
-        "score": 54,
-        "lastWeek": null,
-        "peak": 54,
-        "weeksOnChart": 1,
+        "score": 55.1,
+        "lastWeek": 54,
+        "peak": 53,
+        "weeksOnChart": 2,
         "stats": {
-          "views": 1258988,
-          "likes": 37544,
-          "comments": 1613,
+          "views": 1273952,
+          "likes": 37698,
+          "comments": 1611,
           "publishedAt": "2025-12-11T05:32:03Z",
-          "weeklyViews": 13168,
+          "weeklyViews": 14964,
           "growthPct": 1
         },
         "ids": {
@@ -1033,94 +1014,75 @@
         }
       },
       {
-        "rank": 55,
-        "trackId": "king-aahista-aahista",
-        "score": 53.5,
-        "lastWeek": 29,
-        "peak": 29,
+        "rank": 54,
+        "trackId": "naam-sujal-tha-waddup",
+        "score": 54.4,
+        "lastWeek": 48,
+        "peak": 48,
         "weeksOnChart": 2,
         "stats": {
-          "views": 3240079,
-          "likes": 39319,
-          "comments": 1568,
-          "publishedAt": "2026-08-17T06:58:53Z",
-          "weeklyViews": 37501,
+          "views": 487728,
+          "likes": 17496,
+          "comments": 810,
+          "publishedAt": "2026-03-01T06:00:47Z",
+          "weeklyViews": 5858,
           "growthPct": 1
         },
         "ids": {
-          "youtubeVideoId": "wJe7mOeNxfM"
+          "youtubeVideoId": "YWC9cH-t9kY"
+        }
+      },
+      {
+        "rank": 55,
+        "trackId": "badshah-players",
+        "score": 53.8,
+        "lastWeek": 52,
+        "peak": 52,
+        "weeksOnChart": 2,
+        "stats": {
+          "views": 214005941,
+          "likes": 1648396,
+          "comments": 43971,
+          "publishedAt": "2022-12-21T05:30:04Z",
+          "weeklyViews": 626070,
+          "growthPct": 0
+        },
+        "ids": {
+          "youtubeVideoId": "CeFQO9MQNqs"
         }
       },
       {
         "rank": 56,
-        "trackId": "vichaar-shor",
-        "score": 53.3,
-        "lastWeek": null,
-        "peak": 56,
-        "weeksOnChart": 1,
+        "trackId": "naam-sujal-nmc-ka-dagga",
+        "score": 53.7,
+        "lastWeek": 51,
+        "peak": 51,
+        "weeksOnChart": 2,
         "stats": {
-          "views": 436662,
-          "likes": 18818,
-          "comments": 707,
-          "publishedAt": "2025-11-05T13:30:06Z",
-          "weeklyViews": 3743,
-          "growthPct": 1
+          "views": 721136,
+          "likes": 13871,
+          "comments": 505,
+          "publishedAt": "2026-02-25T18:36:06Z",
+          "weeklyViews": 14657,
+          "growthPct": 2
         },
         "ids": {
-          "youtubeVideoId": "9IGWFpBpHWY"
+          "youtubeVideoId": "GeTdGkUFmi0"
         }
       },
       {
         "rank": 57,
-        "trackId": "99side-hustler",
-        "score": 53.1,
-        "lastWeek": null,
-        "peak": 57,
-        "weeksOnChart": 1,
-        "stats": {
-          "views": 8016,
-          "likes": 705,
-          "comments": 39,
-          "publishedAt": "2026-07-01T11:42:34Z",
-          "weeklyViews": 132,
-          "growthPct": 2
-        },
-        "ids": {
-          "youtubeVideoId": "NhU8cvQ-NOk"
-        }
-      },
-      {
-        "rank": 58,
-        "trackId": "emiway-bantai-firse-machayenge",
-        "score": 53.1,
-        "lastWeek": 42,
-        "peak": 42,
-        "weeksOnChart": 2,
-        "stats": {
-          "views": 650180228,
-          "likes": 8348936,
-          "comments": 194442,
-          "publishedAt": "2020-02-14T09:42:42Z",
-          "weeklyViews": 585543,
-          "growthPct": 0
-        },
-        "ids": {
-          "youtubeVideoId": "zaCbuB3w0kg"
-        }
-      },
-      {
-        "rank": 59,
         "trackId": "krsna-vyanjan",
-        "score": 53.1,
+        "score": 53.3,
         "lastWeek": 59,
-        "peak": 59,
-        "weeksOnChart": 2,
+        "peak": 57,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 3541049,
-          "likes": 271024,
+          "views": 3544995,
+          "likes": 271095,
           "comments": 17691,
           "publishedAt": "2020-07-03T07:28:26Z",
-          "weeklyViews": 3838,
+          "weeklyViews": 3946,
           "growthPct": 0
         },
         "ids": {
@@ -1128,22 +1090,60 @@
         }
       },
       {
-        "rank": 60,
+        "rank": 58,
         "trackId": "amrit-maan-bambiha-bole",
-        "score": 52.9,
-        "lastWeek": 58,
+        "score": 53.2,
+        "lastWeek": 60,
         "peak": 58,
-        "weeksOnChart": 2,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 345431612,
-          "likes": 4141436,
-          "comments": 258372,
+          "views": 345926255,
+          "likes": 4143565,
+          "comments": 258370,
           "publishedAt": "2020-06-12T04:42:17Z",
-          "weeklyViews": 462196,
+          "weeklyViews": 494643,
           "growthPct": 0
         },
         "ids": {
           "youtubeVideoId": "hpVNMjpjiJc"
+        }
+      },
+      {
+        "rank": 59,
+        "trackId": "naam-sujal-waapas-milenge-wahi",
+        "score": 53.1,
+        "lastWeek": null,
+        "peak": 59,
+        "weeksOnChart": 1,
+        "stats": {
+          "views": 146405,
+          "likes": 5023,
+          "comments": 269,
+          "publishedAt": "2026-02-25T19:09:06Z",
+          "weeklyViews": 3088,
+          "growthPct": 2
+        },
+        "ids": {
+          "youtubeVideoId": "hxya3tl1nX4"
+        }
+      },
+      {
+        "rank": 60,
+        "trackId": "divine-tequila-dance",
+        "score": 53,
+        "lastWeek": 50,
+        "peak": 50,
+        "weeksOnChart": 2,
+        "stats": {
+          "views": 955516,
+          "likes": 27828,
+          "comments": 955,
+          "publishedAt": "2025-12-18T17:17:23Z",
+          "weeklyViews": 11131,
+          "growthPct": 1
+        },
+        "ids": {
+          "youtubeVideoId": "Pgt5UDN2HyI"
         }
       }
     ],
@@ -1151,17 +1151,17 @@
       {
         "rank": 1,
         "trackId": "seedhe-maut-buzz",
-        "score": 85,
+        "score": 82,
         "lastWeek": 1,
         "peak": 1,
-        "weeksOnChart": 2,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 2871151,
-          "likes": 114549,
-          "comments": 6827,
+          "views": 3163975,
+          "likes": 117360,
+          "comments": 6940,
           "publishedAt": "2026-10-23T05:30:29Z",
-          "weeklyViews": 371991,
-          "growthPct": 15
+          "weeklyViews": 292824,
+          "growthPct": 10
         },
         "ids": {
           "youtubeVideoId": "EtRDi6HhCfg"
@@ -1169,74 +1169,55 @@
       },
       {
         "rank": 2,
-        "trackId": "vichaar-aabhaari-hoon",
-        "score": 73.6,
-        "lastWeek": 3,
+        "trackId": "naam-sujal-jhalak",
+        "score": 81.3,
+        "lastWeek": null,
         "peak": 2,
-        "weeksOnChart": 2,
+        "weeksOnChart": 1,
         "stats": {
-          "views": 912469,
-          "likes": 31610,
-          "comments": 1483,
+          "views": 999739,
+          "likes": 29416,
+          "comments": 1477,
+          "publishedAt": "2026-11-12T05:30:23Z",
+          "weeklyViews": 999739,
+          "growthPct": 1000
+        },
+        "ids": {
+          "youtubeVideoId": "1kq5o4ET2p0"
+        }
+      },
+      {
+        "rank": 3,
+        "trackId": "vichaar-aabhaari-hoon",
+        "score": 72.6,
+        "lastWeek": 2,
+        "peak": 2,
+        "weeksOnChart": 3,
+        "stats": {
+          "views": 953395,
+          "likes": 32086,
+          "comments": 1492,
           "publishedAt": "2026-09-30T08:00:08Z",
-          "weeklyViews": 45523,
-          "growthPct": 5
+          "weeklyViews": 40926,
+          "growthPct": 4
         },
         "ids": {
           "youtubeVideoId": "i8GxFcE-1XE"
         }
       },
       {
-        "rank": 3,
-        "trackId": "vichaar-stoic",
-        "score": 73.2,
-        "lastWeek": 5,
-        "peak": 3,
-        "weeksOnChart": 2,
-        "stats": {
-          "views": 276886,
-          "likes": 14059,
-          "comments": 333,
-          "publishedAt": "2026-08-07T14:30:21Z",
-          "weeklyViews": 6272,
-          "growthPct": 2
-        },
-        "ids": {
-          "youtubeVideoId": "Dn6O2le_Bt0"
-        }
-      },
-      {
         "rank": 4,
-        "trackId": "seedhe-maut-dilli-jale-roz",
-        "score": 73.1,
-        "lastWeek": 2,
-        "peak": 2,
-        "weeksOnChart": 2,
-        "stats": {
-          "views": 457851,
-          "likes": 54500,
-          "comments": 2430,
-          "publishedAt": "2026-07-25T14:28:56Z",
-          "weeklyViews": 5021,
-          "growthPct": 1
-        },
-        "ids": {
-          "youtubeVideoId": "iX3-YZb1-S0"
-        }
-      },
-      {
-        "rank": 5,
         "trackId": "vichaar-underdog-shit",
-        "score": 72.8,
-        "lastWeek": 6,
-        "peak": 5,
-        "weeksOnChart": 2,
+        "score": 71.8,
+        "lastWeek": 5,
+        "peak": 4,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 897939,
-          "likes": 27194,
-          "comments": 1102,
+          "views": 958881,
+          "likes": 27726,
+          "comments": 1105,
           "publishedAt": "2026-09-17T05:30:09Z",
-          "weeklyViews": 62159,
+          "weeklyViews": 60942,
           "growthPct": 7
         },
         "ids": {
@@ -1244,18 +1225,56 @@
         }
       },
       {
-        "rank": 6,
-        "trackId": "naam-sujal-bajesh-vishay",
-        "score": 68.4,
-        "lastWeek": 7,
-        "peak": 6,
-        "weeksOnChart": 2,
+        "rank": 5,
+        "trackId": "vichaar-stoic",
+        "score": 71.6,
+        "lastWeek": 3,
+        "peak": 3,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 1108711,
-          "likes": 30241,
-          "comments": 1606,
+          "views": 282381,
+          "likes": 14109,
+          "comments": 335,
+          "publishedAt": "2026-08-07T14:30:21Z",
+          "weeklyViews": 5495,
+          "growthPct": 2
+        },
+        "ids": {
+          "youtubeVideoId": "Dn6O2le_Bt0"
+        }
+      },
+      {
+        "rank": 6,
+        "trackId": "seedhe-maut-dilli-jale-roz",
+        "score": 70.1,
+        "lastWeek": 4,
+        "peak": 2,
+        "weeksOnChart": 3,
+        "stats": {
+          "views": 462398,
+          "likes": 54533,
+          "comments": 2430,
+          "publishedAt": "2026-07-25T14:28:56Z",
+          "weeklyViews": 4547,
+          "growthPct": 1
+        },
+        "ids": {
+          "youtubeVideoId": "iX3-YZb1-S0"
+        }
+      },
+      {
+        "rank": 7,
+        "trackId": "naam-sujal-bajesh-vishay",
+        "score": 68.6,
+        "lastWeek": 6,
+        "peak": 6,
+        "weeksOnChart": 3,
+        "stats": {
+          "views": 1142463,
+          "likes": 30616,
+          "comments": 1609,
           "publishedAt": "2026-09-03T05:32:16Z",
-          "weeklyViews": 32046,
+          "weeklyViews": 33752,
           "growthPct": 3
         },
         "ids": {
@@ -1263,37 +1282,37 @@
         }
       },
       {
-        "rank": 7,
-        "trackId": "99side-hustler",
-        "score": 67.8,
-        "lastWeek": 13,
-        "peak": 7,
-        "weeksOnChart": 2,
-        "stats": {
-          "views": 8016,
-          "likes": 705,
-          "comments": 39,
-          "publishedAt": "2026-07-01T11:42:34Z",
-          "weeklyViews": 132,
-          "growthPct": 2
-        },
-        "ids": {
-          "youtubeVideoId": "NhU8cvQ-NOk"
-        }
-      },
-      {
         "rank": 8,
-        "trackId": "prabh-deep-20-7-26",
-        "score": 67.8,
-        "lastWeek": 9,
+        "trackId": "naam-sujal-talab",
+        "score": 67.4,
+        "lastWeek": 10,
         "peak": 8,
         "weeksOnChart": 2,
         "stats": {
-          "views": 7247,
-          "likes": 461,
-          "comments": 43,
+          "views": 245196,
+          "likes": 10078,
+          "comments": 529,
+          "publishedAt": "2026-02-25T19:12:06Z",
+          "weeklyViews": 3964,
+          "growthPct": 2
+        },
+        "ids": {
+          "youtubeVideoId": "3uSXConTE4w"
+        }
+      },
+      {
+        "rank": 9,
+        "trackId": "prabh-deep-20-7-26",
+        "score": 66.7,
+        "lastWeek": 8,
+        "peak": 8,
+        "weeksOnChart": 3,
+        "stats": {
+          "views": 7385,
+          "likes": 464,
+          "comments": 44,
           "publishedAt": "2026-08-08T04:30:07Z",
-          "weeklyViews": 145,
+          "weeklyViews": 138,
           "growthPct": 2
         },
         "ids": {
@@ -1301,18 +1320,18 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "trackId": "mc-altaf-tap-kar",
-        "score": 66.2,
-        "lastWeek": null,
+        "score": 66.1,
+        "lastWeek": 9,
         "peak": 9,
-        "weeksOnChart": 1,
+        "weeksOnChart": 2,
         "stats": {
-          "views": 2578504,
-          "likes": 43631,
-          "comments": 1004,
+          "views": 2646947,
+          "likes": 44022,
+          "comments": 1011,
           "publishedAt": "2026-05-26T11:30:06Z",
-          "weeklyViews": 63900,
+          "weeklyViews": 68443,
           "growthPct": 3
         },
         "ids": {
@@ -1320,37 +1339,18 @@
         }
       },
       {
-        "rank": 10,
-        "trackId": "naam-sujal-talab",
-        "score": 64.6,
-        "lastWeek": null,
-        "peak": 10,
-        "weeksOnChart": 1,
-        "stats": {
-          "views": 241232,
-          "likes": 9987,
-          "comments": 526,
-          "publishedAt": "2026-02-25T19:12:06Z",
-          "weeklyViews": 3140,
-          "growthPct": 1
-        },
-        "ids": {
-          "youtubeVideoId": "3uSXConTE4w"
-        }
-      },
-      {
         "rank": 11,
         "trackId": "naam-sujal-it-s-about-time",
-        "score": 64.5,
-        "lastWeek": null,
+        "score": 64.6,
+        "lastWeek": 11,
         "peak": 11,
-        "weeksOnChart": 1,
+        "weeksOnChart": 2,
         "stats": {
-          "views": 1805846,
-          "likes": 62922,
-          "comments": 1707,
+          "views": 1831624,
+          "likes": 63262,
+          "comments": 1712,
           "publishedAt": "2026-04-29T05:30:04Z",
-          "weeklyViews": 23975,
+          "weeklyViews": 25778,
           "growthPct": 1
         },
         "ids": {
@@ -1359,55 +1359,17 @@
       },
       {
         "rank": 12,
-        "trackId": "vichaar-blow-up",
-        "score": 64.2,
-        "lastWeek": null,
+        "trackId": "naam-sujal-waapas-milenge-wahi",
+        "score": 64.4,
+        "lastWeek": 14,
         "peak": 12,
-        "weeksOnChart": 1,
-        "stats": {
-          "views": 653966,
-          "likes": 19958,
-          "comments": 749,
-          "publishedAt": "2026-03-06T15:38:11Z",
-          "weeklyViews": 11745,
-          "growthPct": 2
-        },
-        "ids": {
-          "youtubeVideoId": "g6jL-W_wUoE"
-        }
-      },
-      {
-        "rank": 13,
-        "trackId": "naezy-bambai",
-        "score": 63.9,
-        "lastWeek": 4,
-        "peak": 4,
         "weeksOnChart": 2,
         "stats": {
-          "views": 102817,
-          "likes": 7559,
-          "comments": 894,
-          "publishedAt": "2026-07-24T10:30:06Z",
-          "weeklyViews": 1010,
-          "growthPct": 1
-        },
-        "ids": {
-          "youtubeVideoId": "tmiEQDQj5To"
-        }
-      },
-      {
-        "rank": 14,
-        "trackId": "naam-sujal-waapas-milenge-wahi",
-        "score": 62.8,
-        "lastWeek": null,
-        "peak": 14,
-        "weeksOnChart": 1,
-        "stats": {
-          "views": 143317,
-          "likes": 4973,
-          "comments": 267,
+          "views": 146405,
+          "likes": 5023,
+          "comments": 269,
           "publishedAt": "2026-02-25T19:09:06Z",
-          "weeklyViews": 2587,
+          "weeklyViews": 3088,
           "growthPct": 2
         },
         "ids": {
@@ -1415,18 +1377,56 @@
         }
       },
       {
+        "rank": 13,
+        "trackId": "vichaar-blow-up",
+        "score": 63.9,
+        "lastWeek": 12,
+        "peak": 12,
+        "weeksOnChart": 2,
+        "stats": {
+          "views": 664976,
+          "likes": 20051,
+          "comments": 750,
+          "publishedAt": "2026-03-06T15:38:11Z",
+          "weeklyViews": 11010,
+          "growthPct": 2
+        },
+        "ids": {
+          "youtubeVideoId": "g6jL-W_wUoE"
+        }
+      },
+      {
+        "rank": 14,
+        "trackId": "naezy-bambai",
+        "score": 63,
+        "lastWeek": 13,
+        "peak": 4,
+        "weeksOnChart": 3,
+        "stats": {
+          "views": 103816,
+          "likes": 7584,
+          "comments": 896,
+          "publishedAt": "2026-07-24T10:30:06Z",
+          "weeklyViews": 999,
+          "growthPct": 1
+        },
+        "ids": {
+          "youtubeVideoId": "tmiEQDQj5To"
+        }
+      },
+      {
         "rank": 15,
         "trackId": "naam-sujal-nmc-ka-dagga",
-        "score": 62.4,
-        "lastWeek": null,
+        "score": 62,
+        "lastWeek": 15,
         "peak": 15,
-        "weeksOnChart": 1,
+        "weeksOnChart": 2,
         "stats": {
-          "views": 706479,
-          "likes": 13748,
-          "comments": 502,
+          "views": 721136,
+          "likes": 13871,
+          "comments": 505,
           "publishedAt": "2026-02-25T18:36:06Z",
-          "weeklyViews": 14648,
+          "weeklyViews": 14657,
           "growthPct": 2
         },
         "ids": {
@@ -1435,17 +1435,55 @@
       },
       {
         "rank": 16,
-        "trackId": "naam-sujal-tha-waddup",
-        "score": 61.8,
+        "trackId": "99side-hustler",
+        "score": 61.7,
+        "lastWeek": 7,
+        "peak": 7,
+        "weeksOnChart": 3,
+        "stats": {
+          "views": 8115,
+          "likes": 705,
+          "comments": 39,
+          "publishedAt": "2026-07-01T11:42:34Z",
+          "weeklyViews": 99,
+          "growthPct": 1
+        },
+        "ids": {
+          "youtubeVideoId": "NhU8cvQ-NOk"
+        }
+      },
+      {
+        "rank": 17,
+        "trackId": "naam-sujal-cut-that-bitch-off",
+        "score": 60.4,
         "lastWeek": null,
-        "peak": 16,
+        "peak": 17,
         "weeksOnChart": 1,
         "stats": {
-          "views": 481870,
-          "likes": 17409,
+          "views": 36709,
+          "likes": 1514,
+          "comments": 48,
+          "publishedAt": "2026-02-25T18:33:06Z",
+          "weeklyViews": 569,
+          "growthPct": 2
+        },
+        "ids": {
+          "youtubeVideoId": "_lCeDMwjoEA"
+        }
+      },
+      {
+        "rank": 18,
+        "trackId": "naam-sujal-tha-waddup",
+        "score": 59.7,
+        "lastWeek": 16,
+        "peak": 16,
+        "weeksOnChart": 2,
+        "stats": {
+          "views": 487728,
+          "likes": 17496,
           "comments": 810,
           "publishedAt": "2026-03-01T06:00:47Z",
-          "weeklyViews": 5787,
+          "weeklyViews": 5858,
           "growthPct": 1
         },
         "ids": {
@@ -1453,37 +1491,18 @@
         }
       },
       {
-        "rank": 17,
-        "trackId": "vichaar-fly",
-        "score": 60.6,
-        "lastWeek": null,
-        "peak": 17,
-        "weeksOnChart": 1,
-        "stats": {
-          "views": 250021,
-          "likes": 8217,
-          "comments": 275,
-          "publishedAt": "2026-03-30T14:30:06Z",
-          "weeklyViews": 4024,
-          "growthPct": 2
-        },
-        "ids": {
-          "youtubeVideoId": "9AdloE-zvoA"
-        }
-      },
-      {
-        "rank": 18,
+        "rank": 19,
         "trackId": "siyaahi-tata-indica",
-        "score": 60,
-        "lastWeek": null,
+        "score": 59.3,
+        "lastWeek": 18,
         "peak": 18,
-        "weeksOnChart": 1,
+        "weeksOnChart": 2,
         "stats": {
-          "views": 268389,
-          "likes": 9331,
-          "comments": 529,
+          "views": 271892,
+          "likes": 9387,
+          "comments": 532,
           "publishedAt": "2026-02-03T11:30:06Z",
-          "weeklyViews": 3486,
+          "weeklyViews": 3503,
           "growthPct": 1
         },
         "ids": {
@@ -1491,211 +1510,230 @@
         }
       },
       {
-        "rank": 19,
-        "trackId": "sammohit-waqt",
-        "score": 59.1,
-        "lastWeek": 11,
-        "peak": 11,
-        "weeksOnChart": 2,
-        "stats": {
-          "views": 4627,
-          "likes": 340,
-          "comments": 18,
-          "publishedAt": "2026-08-12T12:30:09Z",
-          "weeklyViews": 53,
-          "growthPct": 1
-        },
-        "ids": {
-          "youtubeVideoId": "6JlCLWGDaDI"
-        }
-      },
-      {
         "rank": 20,
-        "trackId": "prabh-deep-safal",
-        "score": 58.6,
-        "lastWeek": 12,
-        "peak": 12,
+        "trackId": "vichaar-fly",
+        "score": 58.1,
+        "lastWeek": 17,
+        "peak": 17,
         "weeksOnChart": 2,
         "stats": {
-          "views": 10167,
-          "likes": 600,
-          "comments": 59,
-          "publishedAt": "2026-07-18T04:30:06Z",
-          "weeklyViews": 112,
+          "views": 253533,
+          "likes": 8254,
+          "comments": 275,
+          "publishedAt": "2026-03-30T14:30:06Z",
+          "weeklyViews": 3512,
           "growthPct": 1
         },
         "ids": {
-          "youtubeVideoId": "zTAgT0fjKF8"
+          "youtubeVideoId": "9AdloE-zvoA"
         }
       }
     ],
     "fresh": [
       {
         "rank": 1,
+        "trackId": "emiway-bantai-sumwali-daav",
+        "score": 89.9,
+        "lastWeek": null,
+        "peak": 1,
+        "weeksOnChart": 1,
+        "stats": {
+          "views": 1352247,
+          "likes": 81211,
+          "comments": 7515,
+          "publishedAt": "2026-11-12T18:30:10Z",
+          "weeklyViews": 1352247,
+          "growthPct": 1000
+        },
+        "ids": {
+          "youtubeVideoId": "CiItymK4F_M"
+        }
+      },
+      {
+        "rank": 2,
+        "trackId": "emiway-bantai-mr-international",
+        "score": 87.7,
+        "lastWeek": null,
+        "peak": 2,
+        "weeksOnChart": 1,
+        "stats": {
+          "views": 441490,
+          "likes": 38067,
+          "comments": 2370,
+          "publishedAt": "2026-11-11T18:39:00Z",
+          "weeklyViews": 441490,
+          "growthPct": 1000
+        },
+        "ids": {
+          "youtubeVideoId": "5S8_2eLWChI"
+        }
+      },
+      {
+        "rank": 3,
         "trackId": "sidhu-moose-wala-295",
-        "score": 84,
+        "score": 81.5,
         "lastWeek": 1,
         "peak": 1,
-        "weeksOnChart": 2,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 23406593,
-          "likes": 875686,
-          "comments": 107272,
+          "views": 24338990,
+          "likes": 883896,
+          "comments": 107578,
           "publishedAt": "2026-10-10T03:47:32Z",
-          "weeklyViews": 1322287,
-          "growthPct": 6
+          "weeklyViews": 932397,
+          "growthPct": 4
         },
         "ids": {
           "youtubeVideoId": "C9OmyNRyz4E"
         }
       },
       {
-        "rank": 2,
-        "trackId": "seedhe-maut-buzz",
-        "score": 77.9,
-        "lastWeek": 2,
-        "peak": 2,
-        "weeksOnChart": 2,
+        "rank": 4,
+        "trackId": "king-tujhe-haaye-lage",
+        "score": 77.4,
+        "lastWeek": null,
+        "peak": 4,
+        "weeksOnChart": 1,
         "stats": {
-          "views": 2871151,
-          "likes": 114549,
-          "comments": 6827,
-          "publishedAt": "2026-10-23T05:30:29Z",
-          "weeklyViews": 371991,
-          "growthPct": 15
+          "views": 136643,
+          "likes": 7345,
+          "comments": 495,
+          "publishedAt": "2026-11-13T12:30:36Z",
+          "weeklyViews": 136643,
+          "growthPct": 1000
         },
         "ids": {
-          "youtubeVideoId": "EtRDi6HhCfg"
+          "youtubeVideoId": "yCJRsL6QOxk"
         }
       },
       {
-        "rank": 3,
+        "rank": 5,
         "trackId": "emiway-bantai-trap-aiba",
-        "score": 77.1,
+        "score": 75.8,
         "lastWeek": 3,
         "peak": 3,
-        "weeksOnChart": 2,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 1831055,
-          "likes": 82895,
-          "comments": 7041,
+          "views": 1990746,
+          "likes": 85553,
+          "comments": 7154,
           "publishedAt": "2026-10-17T18:30:17Z",
-          "weeklyViews": 173556,
-          "growthPct": 10
+          "weeklyViews": 159691,
+          "growthPct": 9
         },
         "ids": {
           "youtubeVideoId": "SZv3qXn4oUE"
         }
       },
       {
-        "rank": 4,
+        "rank": 6,
+        "trackId": "naam-sujal-jhalak",
+        "score": 75.7,
+        "lastWeek": null,
+        "peak": 6,
+        "weeksOnChart": 1,
+        "stats": {
+          "views": 999739,
+          "likes": 29416,
+          "comments": 1477,
+          "publishedAt": "2026-11-12T05:30:23Z",
+          "weeklyViews": 999739,
+          "growthPct": 1000
+        },
+        "ids": {
+          "youtubeVideoId": "1kq5o4ET2p0"
+        }
+      },
+      {
+        "rank": 7,
+        "trackId": "seedhe-maut-buzz",
+        "score": 74.6,
+        "lastWeek": 2,
+        "peak": 2,
+        "weeksOnChart": 3,
+        "stats": {
+          "views": 3163975,
+          "likes": 117360,
+          "comments": 6940,
+          "publishedAt": "2026-10-23T05:30:29Z",
+          "weeklyViews": 292824,
+          "growthPct": 10
+        },
+        "ids": {
+          "youtubeVideoId": "EtRDi6HhCfg"
+        }
+      },
+      {
+        "rank": 8,
         "trackId": "king-enamorado",
-        "score": 73.8,
+        "score": 72,
         "lastWeek": 4,
         "peak": 4,
-        "weeksOnChart": 2,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 3651551,
-          "likes": 104797,
-          "comments": 4343,
+          "views": 4110464,
+          "likes": 110375,
+          "comments": 4442,
           "publishedAt": "2026-10-19T06:30:10Z",
-          "weeklyViews": 604581,
-          "growthPct": 20
+          "weeklyViews": 458913,
+          "growthPct": 13
         },
         "ids": {
           "youtubeVideoId": "nnrS_dFjeZc"
         }
       },
       {
-        "rank": 5,
+        "rank": 9,
         "trackId": "vichaar-aabhaari-hoon",
-        "score": 65.3,
+        "score": 64.2,
         "lastWeek": 5,
         "peak": 5,
-        "weeksOnChart": 2,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 912469,
-          "likes": 31610,
-          "comments": 1483,
+          "views": 953395,
+          "likes": 32086,
+          "comments": 1492,
           "publishedAt": "2026-09-30T08:00:08Z",
-          "weeklyViews": 45523,
-          "growthPct": 5
+          "weeklyViews": 40926,
+          "growthPct": 4
         },
         "ids": {
           "youtubeVideoId": "i8GxFcE-1XE"
         }
       },
       {
-        "rank": 6,
-        "trackId": "vichaar-underdog-shit",
-        "score": 64.8,
-        "lastWeek": 6,
-        "peak": 6,
-        "weeksOnChart": 2,
-        "stats": {
-          "views": 897939,
-          "likes": 27194,
-          "comments": 1102,
-          "publishedAt": "2026-09-17T05:30:09Z",
-          "weeklyViews": 62159,
-          "growthPct": 7
-        },
-        "ids": {
-          "youtubeVideoId": "v-r0YAtcpVU"
-        }
-      },
-      {
-        "rank": 7,
+        "rank": 10,
         "trackId": "krsna-buss-down",
-        "score": 57.4,
-        "lastWeek": 8,
+        "score": 56.4,
+        "lastWeek": 7,
         "peak": 7,
-        "weeksOnChart": 2,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 334766,
-          "likes": 6286,
-          "comments": 176,
+          "views": 363765,
+          "likes": 6632,
+          "comments": 182,
           "publishedAt": "2026-09-29T05:16:24Z",
-          "weeklyViews": 29785,
-          "growthPct": 10
+          "weeklyViews": 28999,
+          "growthPct": 9
         },
         "ids": {
           "youtubeVideoId": "156_7w_W5j0"
         }
       },
       {
-        "rank": 8,
-        "trackId": "raftaar-legacy-finale-performance",
-        "score": 45.6,
-        "lastWeek": 7,
-        "peak": 7,
-        "weeksOnChart": 2,
-        "stats": {
-          "views": 622361,
-          "likes": 10746,
-          "comments": 624,
-          "publishedAt": "2026-09-20T08:30:14Z",
-          "weeklyViews": 6019,
-          "growthPct": 1
-        },
-        "ids": {
-          "youtubeVideoId": "LYrVm1TwsiQ"
-        }
-      },
-      {
-        "rank": 9,
+        "rank": 11,
         "trackId": "tenma-dei-thambi",
-        "score": 39.8,
+        "score": 37,
         "lastWeek": 9,
         "peak": 9,
-        "weeksOnChart": 2,
+        "weeksOnChart": 3,
         "stats": {
-          "views": 1812,
+          "views": 1866,
           "likes": 68,
-          "comments": 2,
+          "comments": 3,
           "publishedAt": "2026-10-23T06:30:25Z",
-          "weeklyViews": 87,
-          "growthPct": 5
+          "weeklyViews": 54,
+          "growthPct": 3
         },
         "ids": {
           "youtubeVideoId": "7eJCNfjs7Xs"
@@ -2207,6 +2245,18 @@
     },
     "raftaar-legacy-finale-performance": {
       "youtubeVideoId": "LYrVm1TwsiQ"
+    },
+    "naam-sujal-jhalak": {
+      "youtubeVideoId": "1kq5o4ET2p0"
+    },
+    "king-tujhe-haaye-lage": {
+      "youtubeVideoId": "yCJRsL6QOxk"
+    },
+    "emiway-bantai-sumwali-daav": {
+      "youtubeVideoId": "CiItymK4F_M"
+    },
+    "emiway-bantai-mr-international": {
+      "youtubeVideoId": "5S8_2eLWChI"
     }
   }
 }

@@ -1873,5 +1873,67 @@
     "underground": false,
     "youtubeVideoId": "LYrVm1TwsiQ",
     "discoveredAt": "2026-11-02T18:19:00.573Z"
+  },
+  "naam-sujal-jhalak": {
+    "title": "Jhalak",
+    "artists": [
+      "Naam Sujal",
+      "Aanchal Tyagi",
+      "Hiten"
+    ],
+    "genres": [
+      "underground",
+      "regional"
+    ],
+    "year": 2026,
+    "language": "Gujarati/Hindi",
+    "underground": true,
+    "youtubeVideoId": "1kq5o4ET2p0",
+    "discoveredAt": "2026-11-16T11:50:59.724Z"
+  },
+  "king-tujhe-haaye-lage": {
+    "title": "Tujhe Haaye Lage",
+    "artists": [
+      "King",
+      "Rishabh Panchal"
+    ],
+    "genres": [
+      "pop-rap"
+    ],
+    "year": 2026,
+    "language": "Hindi",
+    "underground": false,
+    "youtubeVideoId": "yCJRsL6QOxk",
+    "discoveredAt": "2026-11-16T11:50:59.724Z"
+  },
+  "emiway-bantai-sumwali-daav": {
+    "title": "Sumwali Daav",
+    "artists": [
+      "Emiway Bantai"
+    ],
+    "genres": [
+      "pop-rap",
+      "trap"
+    ],
+    "year": 2026,
+    "language": "Hindi",
+    "underground": false,
+    "youtubeVideoId": "CiItymK4F_M",
+    "discoveredAt": "2026-11-16T11:50:59.724Z"
+  },
+  "emiway-bantai-mr-international": {
+    "title": "Mr. International",
+    "artists": [
+      "Emiway Bantai"
+    ],
+    "genres": [
+      "pop-rap",
+      "trap"
+    ],
+    "year": 2026,
+    "language": "Hindi",
+    "underground": false,
+    "youtubeVideoId": "5S8_2eLWChI",
+    "discoveredAt": "2026-11-16T11:50:59.724Z"
   }
 }
